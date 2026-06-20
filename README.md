@@ -44,18 +44,17 @@
 
 ---
 
-## 💻 Elite 3D Workspace Architecture
-> Below is the ultimate 3D-rendered workspace model. This ortho-projected map features a multi-layer room, detailed desk hardware (mechanical keyboard keys, ergonomic mouse, and desk mat), realistic lighting, and advanced skeletal animations (typing, coffee sipping, code scrolling, and screen reflections).
+## 💻 Setup
 
 <div align="center">
-  <img src="ragdoll.svg" width="100%" alt="Elite 3D Workstation" />
+  <img src="ragdoll.svg" width="100%" alt="Workspace" />
 </div>
 
 <br/>
 
 ---
 
-## 🐍 Contribution Snake Grid
+## 🐍 Contribution
 
 <div align="center">
   <picture>
@@ -69,7 +68,8 @@
 
 ---
 
-## 📊 Live Metrics & Core Analytics
+## 📊 Stats
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bercaius&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&ring_color=00D5FF&title_color=00D5FF&icon_color=00D5FF" alt="GitHub Stats" width="48%" />
