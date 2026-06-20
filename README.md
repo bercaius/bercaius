@@ -1,11 +1,11 @@
 <div align="center">
   <a href="https://github.com/bercaius">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=55&pause=1000&color=00D5FF&center=true&vCenter=true&width=600&height=100&lines=BERCAIUS" alt="bercaius" />
+    <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=55&pause=1000&color=E4E7EC&center=true&vCenter=true&width=600&height=100&lines=BERCAIUS" alt="bercaius" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=2000&color=A9B7C6&center=true&vCenter=true&width=600&lines=Creative+Developer;UI%2FUX+Animator;Stealth+Designer" alt="Roles" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=300&size=22&pause=2000&color=9AA2AF&center=true&vCenter=true&width=600&lines=Software+Engineer" alt="Software Engineer" />
 </div>
 
 <br/>
@@ -47,7 +47,7 @@
 ## ☕ Our Loop
 
 <div align="center">
-  <video src="https://raw.githubusercontent.com/bercaius/bercaius/main/workspace.mp4" autoplay loop muted playsinline width="100%"></video>
+  <img src="loop.gif" width="100%" alt="Our Loop" />
 </div>
 
 <br/>
