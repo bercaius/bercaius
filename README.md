@@ -44,11 +44,11 @@
 
 ---
 
-## 🦾 Dynamic Ragdoll Stickman & Automatic Physics Loops
-> Below is a 44-joint biological ragdoll system executing complex, organic physics simulations. The movements are rendered via pure CSS animations inside an isolated vector space for maximum security and performance.
+## ☕ Cozy Workspace & Realistic 3D Animation
+> Below is a highly-detailed, warm, 3D-like workspace scene. The programmer is sitting at the desk, actively coding, and occasionally pausing to take a sip from their drink. Rendered in a cozy, realistic lighting environment.
 
 <div align="center">
-  <img src="ragdoll.svg" width="100%" alt="Dynamic Ragdoll Stickman Animation" />
+  <img src="ragdoll.svg" width="100%" alt="Cozy Coding Session" />
 </div>
 
 <br/>
