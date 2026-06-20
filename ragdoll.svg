@@ -1,44 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="600" style="background-color: #121118; border-radius: 12px; border: 1px solid #23222A;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="600" style="background-color: #0E0D12; border-radius: 12px; border: 1px solid #1E1C24;">
   <defs>
-    <!-- Warm Realistic Gradients -->
-    <linearGradient id="desk-grad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4E2F1D" />
+    <!-- Warm Mahogany Desk Gradient -->
+    <linearGradient id="desk-top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5C3A21" />
+      <stop offset="30%" stop-color="#4E2F1D" />
       <stop offset="100%" stop-color="#22130A" />
     </linearGradient>
+    <linearGradient id="desk-bevel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D1B10" />
+      <stop offset="100%" stop-color="#140B06" />
+    </linearGradient>
+
+    <!-- Room Wall Gradients -->
+    <linearGradient id="wall-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#17161F" />
+      <stop offset="50%" stop-color="#121118" />
+      <stop offset="100%" stop-color="#0B0A0E" />
+    </linearGradient>
     
+    <!-- LED Mat Border Glow -->
+    <linearGradient id="mat-border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="50%" stop-color="#00838F" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+
+    <!-- Screen Glow & Content Clip -->
     <linearGradient id="screen-glow" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#00D5FF" stop-opacity="1" />
       <stop offset="100%" stop-color="#00D5FF" stop-opacity="0" />
     </linearGradient>
     
+    <!-- Lamp Light Cone -->
     <radialGradient id="lamp-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="0.22" />
       <stop offset="100%" stop-color="#FFF9C4" stop-opacity="0" />
     </radialGradient>
-    
+
+    <!-- Character Sweater & Skin -->
     <linearGradient id="sweater-grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1E3838" />
-      <stop offset="50%" stop-color="#2A4D4D" />
-      <stop offset="100%" stop-color="#152727" />
+      <stop offset="0%" stop-color="#223E3E" />
+      <stop offset="50%" stop-color="#2F5C5C" />
+      <stop offset="100%" stop-color="#182E2E" />
+    </linearGradient>
+    <linearGradient id="skin-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCD2B2" />
+      <stop offset="100%" stop-color="#DF9E77" />
+    </linearGradient>
+    <linearGradient id="hair-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5D4B3E" />
+      <stop offset="100%" stop-color="#2E231C" />
     </linearGradient>
 
-    <linearGradient id="skin-grad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#FFD1A9" />
-      <stop offset="100%" stop-color="#E0A97E" />
-    </linearGradient>
-    
+    <!-- Coffee Mug -->
     <linearGradient id="mug-grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#D35400" />
-      <stop offset="100%" stop-color="#A04000" />
+      <stop offset="0%" stop-color="#E65100" />
+      <stop offset="100%" stop-color="#8D2300" />
     </linearGradient>
 
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="4" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+      <feDropShadow dx="5" dy="7" stdDeviation="6" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    
+    <filter id="room-shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="15" stdDeviation="15" flood-color="#000000" flood-opacity="0.8"/>
     </filter>
   </defs>
 
   <style>
-    /* Cozy Workspace Styles */
     .typing-l-shoulder { animation: l_shoulder_anim 0.8s infinite ease-in-out; }
     .typing-l-elbow { animation: l_elbow_anim 0.8s infinite ease-in-out; }
     .typing-l-wrist { animation: l_wrist_anim 0.8s infinite ease-in-out; }
@@ -56,8 +85,8 @@
     .code-scroll-class { animation: code_scroll 8s infinite linear; }
     .screen-glow-class { animation: glow_flicker 4s infinite ease-in-out; }
     .steam-class { animation: steam_anim 3s infinite ease-in-out; }
+    .plant-class { animation: wind_sway 6s infinite ease-in-out; }
 
-    /* Keyframe Database */
 @keyframes l_shoulder_anim {
   0.0% {
     transform: rotate(0.00deg);
@@ -4908,607 +4937,607 @@
 
 @keyframes head_anim {
   0.0% {
-    transform: translate(0px, 1.00px) rotate(0.00deg);
+    transform: translate(0px, 0.80px) rotate(0.00deg);
   }
   0.5% {
-    transform: translate(0px, 1.00px) rotate(0.07deg);
+    transform: translate(0px, 0.80px) rotate(0.06deg);
   }
   1.0% {
-    transform: translate(0px, 1.00px) rotate(0.14deg);
+    transform: translate(0px, 0.80px) rotate(0.11deg);
   }
   1.5% {
-    transform: translate(0px, 0.99px) rotate(0.21deg);
+    transform: translate(0px, 0.79px) rotate(0.17deg);
   }
   2.0% {
-    transform: translate(0px, 0.98px) rotate(0.28deg);
+    transform: translate(0px, 0.79px) rotate(0.22deg);
   }
   2.5% {
-    transform: translate(0px, 0.97px) rotate(0.35deg);
+    transform: translate(0px, 0.78px) rotate(0.28deg);
   }
   3.0% {
-    transform: translate(0px, 0.96px) rotate(0.42deg);
+    transform: translate(0px, 0.77px) rotate(0.33deg);
   }
   3.5% {
-    transform: translate(0px, 0.95px) rotate(0.49deg);
+    transform: translate(0px, 0.76px) rotate(0.39deg);
   }
   4.0% {
-    transform: translate(0px, 0.93px) rotate(0.55deg);
+    transform: translate(0px, 0.74px) rotate(0.44deg);
   }
   4.5% {
-    transform: translate(0px, 0.91px) rotate(0.62deg);
+    transform: translate(0px, 0.73px) rotate(0.49deg);
   }
   5.0% {
-    transform: translate(0px, 0.89px) rotate(0.68deg);
+    transform: translate(0px, 0.71px) rotate(0.54deg);
   }
   5.5% {
-    transform: translate(0px, 0.87px) rotate(0.74deg);
+    transform: translate(0px, 0.69px) rotate(0.59deg);
   }
   6.0% {
-    transform: translate(0px, 0.84px) rotate(0.80deg);
+    transform: translate(0px, 0.68px) rotate(0.64deg);
   }
   6.5% {
-    transform: translate(0px, 0.82px) rotate(0.86deg);
+    transform: translate(0px, 0.65px) rotate(0.69deg);
   }
   7.0% {
-    transform: translate(0px, 0.79px) rotate(0.92deg);
+    transform: translate(0px, 0.63px) rotate(0.74deg);
   }
   7.5% {
-    transform: translate(0px, 0.76px) rotate(0.97deg);
+    transform: translate(0px, 0.61px) rotate(0.78deg);
   }
   8.0% {
-    transform: translate(0px, 0.73px) rotate(1.03deg);
+    transform: translate(0px, 0.58px) rotate(0.82deg);
   }
   8.5% {
-    transform: translate(0px, 0.70px) rotate(1.08deg);
+    transform: translate(0px, 0.56px) rotate(0.86deg);
   }
   9.0% {
-    transform: translate(0px, 0.66px) rotate(1.13deg);
+    transform: translate(0px, 0.53px) rotate(0.90deg);
   }
   9.5% {
-    transform: translate(0px, 0.63px) rotate(1.17deg);
+    transform: translate(0px, 0.50px) rotate(0.94deg);
   }
   10.0% {
-    transform: translate(0px, 0.59px) rotate(1.21deg);
+    transform: translate(0px, 0.47px) rotate(0.97deg);
   }
   10.5% {
-    transform: translate(0px, 0.55px) rotate(1.25deg);
+    transform: translate(0px, 0.44px) rotate(1.00deg);
   }
   11.0% {
-    transform: translate(0px, 0.51px) rotate(1.29deg);
+    transform: translate(0px, 0.41px) rotate(1.03deg);
   }
   11.5% {
-    transform: translate(0px, 0.47px) rotate(1.33deg);
+    transform: translate(0px, 0.37px) rotate(1.06deg);
   }
   12.0% {
-    transform: translate(0px, 0.43px) rotate(1.36deg);
+    transform: translate(0px, 0.34px) rotate(1.09deg);
   }
   12.5% {
-    transform: translate(0px, 0.38px) rotate(1.39deg);
+    transform: translate(0px, 0.31px) rotate(1.11deg);
   }
   13.0% {
-    transform: translate(0px, 0.34px) rotate(1.41deg);
+    transform: translate(0px, 0.27px) rotate(1.13deg);
   }
   13.5% {
-    transform: translate(0px, 0.29px) rotate(1.43deg);
+    transform: translate(0px, 0.24px) rotate(1.15deg);
   }
   14.0% {
-    transform: translate(0px, 0.25px) rotate(1.45deg);
+    transform: translate(0px, 0.20px) rotate(1.16deg);
   }
   14.5% {
-    transform: translate(0px, 0.20px) rotate(1.47deg);
+    transform: translate(0px, 0.16px) rotate(1.18deg);
   }
   15.0% {
-    transform: translate(0px, 0.16px) rotate(1.48deg);
+    transform: translate(0px, 0.13px) rotate(1.19deg);
   }
   15.5% {
-    transform: translate(0px, 0.11px) rotate(1.49deg);
+    transform: translate(0px, 0.09px) rotate(1.19deg);
   }
   16.0% {
-    transform: translate(0px, 0.06px) rotate(1.50deg);
+    transform: translate(0px, 0.05px) rotate(1.20deg);
   }
   16.5% {
-    transform: translate(0px, 0.02px) rotate(1.50deg);
+    transform: translate(0px, 0.01px) rotate(1.20deg);
   }
   17.0% {
-    transform: translate(0px, -0.03px) rotate(1.50deg);
+    transform: translate(0px, -0.03px) rotate(1.20deg);
   }
   17.5% {
-    transform: translate(0px, -0.08px) rotate(1.50deg);
+    transform: translate(0px, -0.06px) rotate(1.20deg);
   }
   18.0% {
-    transform: translate(0px, -0.13px) rotate(1.49deg);
+    transform: translate(0px, -0.10px) rotate(1.19deg);
   }
   18.5% {
-    transform: translate(0px, -0.17px) rotate(1.48deg);
+    transform: translate(0px, -0.14px) rotate(1.18deg);
   }
   19.0% {
-    transform: translate(0px, -0.22px) rotate(1.46deg);
+    transform: translate(0px, -0.17px) rotate(1.17deg);
   }
   19.5% {
-    transform: translate(0px, -0.26px) rotate(1.45deg);
+    transform: translate(0px, -0.21px) rotate(1.16deg);
   }
   20.0% {
-    transform: translate(0px, -0.31px) rotate(1.43deg);
+    transform: translate(0px, -0.25px) rotate(1.14deg);
   }
   20.5% {
-    transform: translate(0px, -0.35px) rotate(1.40deg);
+    transform: translate(0px, -0.28px) rotate(1.12deg);
   }
   21.0% {
-    transform: translate(0px, -0.40px) rotate(1.38deg);
+    transform: translate(0px, -0.32px) rotate(1.10deg);
   }
   21.5% {
-    transform: translate(0px, -0.44px) rotate(1.35deg);
+    transform: translate(0px, -0.35px) rotate(1.08deg);
   }
   22.0% {
-    transform: translate(0px, -0.48px) rotate(1.31deg);
+    transform: translate(0px, -0.39px) rotate(1.05deg);
   }
   22.5% {
-    transform: translate(0px, -0.52px) rotate(1.28deg);
+    transform: translate(0px, -0.42px) rotate(1.02deg);
   }
   23.0% {
-    transform: translate(0px, -0.56px) rotate(1.24deg);
+    transform: translate(0px, -0.45px) rotate(0.99deg);
   }
   23.5% {
-    transform: translate(0px, -0.60px) rotate(1.20deg);
+    transform: translate(0px, -0.48px) rotate(0.96deg);
   }
   24.0% {
-    transform: translate(0px, -0.64px) rotate(1.16deg);
+    transform: translate(0px, -0.51px) rotate(0.92deg);
   }
   24.5% {
-    transform: translate(0px, -0.67px) rotate(1.11deg);
+    transform: translate(0px, -0.54px) rotate(0.89deg);
   }
   25.0% {
-    transform: translate(0px, -0.71px) rotate(1.06deg);
+    transform: translate(0px, -0.57px) rotate(0.85deg);
   }
   25.5% {
-    transform: translate(0px, -0.74px) rotate(1.01deg);
+    transform: translate(0px, -0.59px) rotate(0.81deg);
   }
   26.0% {
-    transform: translate(0px, -0.77px) rotate(0.96deg);
+    transform: translate(0px, -0.62px) rotate(0.76deg);
   }
   26.5% {
-    transform: translate(0px, -0.80px) rotate(0.90deg);
+    transform: translate(0px, -0.64px) rotate(0.72deg);
   }
   27.0% {
-    transform: translate(0px, -0.83px) rotate(0.84deg);
+    transform: translate(0px, -0.66px) rotate(0.67deg);
   }
   27.5% {
-    transform: translate(0px, -0.85px) rotate(0.78deg);
+    transform: translate(0px, -0.68px) rotate(0.63deg);
   }
   28.0% {
-    transform: translate(0px, -0.88px) rotate(0.72deg);
+    transform: translate(0px, -0.70px) rotate(0.58deg);
   }
   28.5% {
-    transform: translate(0px, -0.90px) rotate(0.66deg);
+    transform: translate(0px, -0.72px) rotate(0.53deg);
   }
   29.0% {
-    transform: translate(0px, -0.92px) rotate(0.60deg);
+    transform: translate(0px, -0.73px) rotate(0.48deg);
   }
   29.5% {
-    transform: translate(0px, -0.94px) rotate(0.53deg);
+    transform: translate(0px, -0.75px) rotate(0.42deg);
   }
   30.0% {
-    transform: translate(0px, -0.95px) rotate(0.46deg);
+    transform: translate(0px, -0.76px) rotate(0.37deg);
   }
   30.5% {
-    transform: translate(0px, -0.96px) rotate(0.40deg);
+    transform: translate(0px, -0.77px) rotate(0.32deg);
   }
   31.0% {
-    transform: translate(0px, -0.98px) rotate(0.33deg);
+    transform: translate(0px, -0.78px) rotate(0.26deg);
   }
   31.5% {
-    transform: translate(0px, -0.99px) rotate(0.26deg);
+    transform: translate(0px, -0.79px) rotate(0.21deg);
   }
   32.0% {
-    transform: translate(0px, -0.99px) rotate(0.19deg);
+    transform: translate(0px, -0.79px) rotate(0.15deg);
   }
   32.5% {
-    transform: translate(0px, -1.00px) rotate(0.12deg);
+    transform: translate(0px, -0.80px) rotate(0.09deg);
   }
   33.0% {
-    transform: translate(0px, -1.00px) rotate(0.05deg);
+    transform: translate(0px, -0.80px) rotate(0.04deg);
   }
   33.5% {
-    transform: translate(0px, -1.00px) rotate(-0.02deg);
+    transform: translate(0px, -0.80px) rotate(-0.02deg);
   }
   34.0% {
-    transform: translate(0px, -1.00px) rotate(-0.09deg);
+    transform: translate(0px, -0.80px) rotate(-0.08deg);
   }
   34.5% {
-    transform: translate(0px, -0.99px) rotate(-0.16deg);
+    transform: translate(0px, -0.80px) rotate(-0.13deg);
   }
   35.0% {
-    transform: translate(0px, -0.99px) rotate(-0.23deg);
+    transform: translate(0px, -0.79px) rotate(-0.19deg);
   }
   35.5% {
-    transform: translate(0px, -0.98px) rotate(-0.30deg);
+    transform: translate(0px, -0.78px) rotate(-0.24deg);
   }
   36.0% {
-    transform: translate(0px, -0.97px) rotate(-0.37deg);
+    transform: translate(0px, -0.77px) rotate(-0.30deg);
   }
   36.5% {
-    transform: translate(0px, -0.96px) rotate(-0.44deg);
+    transform: translate(0px, -0.76px) rotate(-0.35deg);
   }
   37.0% {
-    transform: translate(0px, -0.94px) rotate(-0.51deg);
+    transform: translate(0px, -0.75px) rotate(-0.41deg);
   }
   37.5% {
-    transform: translate(0px, -0.92px) rotate(-0.57deg);
+    transform: translate(0px, -0.74px) rotate(-0.46deg);
   }
   38.0% {
-    transform: translate(0px, -0.90px) rotate(-0.64deg);
+    transform: translate(0px, -0.72px) rotate(-0.51deg);
   }
   38.5% {
-    transform: translate(0px, -0.88px) rotate(-0.70deg);
+    transform: translate(0px, -0.71px) rotate(-0.56deg);
   }
   39.0% {
-    transform: translate(0px, -0.86px) rotate(-0.76deg);
+    transform: translate(0px, -0.69px) rotate(-0.61deg);
   }
   39.5% {
-    transform: translate(0px, -0.84px) rotate(-0.82deg);
+    transform: translate(0px, -0.67px) rotate(-0.66deg);
   }
   40.0% {
-    transform: translate(0px, -0.81px) rotate(-0.88deg);
+    transform: translate(0px, -0.65px) rotate(-0.71deg);
   }
   40.5% {
-    transform: translate(0px, -0.78px) rotate(-0.94deg);
+    transform: translate(0px, -0.62px) rotate(-0.75deg);
   }
   41.0% {
-    transform: translate(0px, -0.75px) rotate(-0.99deg);
+    transform: translate(0px, -0.60px) rotate(-0.79deg);
   }
   41.5% {
-    transform: translate(0px, -0.72px) rotate(-1.04deg);
+    transform: translate(0px, -0.57px) rotate(-0.84deg);
   }
   42.0% {
-    transform: translate(0px, -0.68px) rotate(-1.09deg);
+    transform: translate(0px, -0.55px) rotate(-0.87deg);
   }
   42.5% {
-    transform: translate(0px, -0.65px) rotate(-1.14deg);
+    transform: translate(0px, -0.52px) rotate(-0.91deg);
   }
   43.0% {
-    transform: translate(0px, -0.61px) rotate(-1.19deg);
+    transform: translate(0px, -0.49px) rotate(-0.95deg);
   }
   43.5% {
-    transform: translate(0px, -0.58px) rotate(-1.23deg);
+    transform: translate(0px, -0.46px) rotate(-0.98deg);
   }
   44.0% {
-    transform: translate(0px, -0.54px) rotate(-1.27deg);
+    transform: translate(0px, -0.43px) rotate(-1.01deg);
   }
   44.5% {
-    transform: translate(0px, -0.50px) rotate(-1.30deg);
+    transform: translate(0px, -0.40px) rotate(-1.04deg);
   }
   45.0% {
-    transform: translate(0px, -0.45px) rotate(-1.34deg);
+    transform: translate(0px, -0.36px) rotate(-1.07deg);
   }
   45.5% {
-    transform: translate(0px, -0.41px) rotate(-1.37deg);
+    transform: translate(0px, -0.33px) rotate(-1.09deg);
   }
   46.0% {
-    transform: translate(0px, -0.37px) rotate(-1.39deg);
+    transform: translate(0px, -0.29px) rotate(-1.12deg);
   }
   46.5% {
-    transform: translate(0px, -0.32px) rotate(-1.42deg);
+    transform: translate(0px, -0.26px) rotate(-1.14deg);
   }
   47.0% {
-    transform: translate(0px, -0.28px) rotate(-1.44deg);
+    transform: translate(0px, -0.22px) rotate(-1.15deg);
   }
   47.5% {
-    transform: translate(0px, -0.23px) rotate(-1.46deg);
+    transform: translate(0px, -0.19px) rotate(-1.17deg);
   }
   48.0% {
-    transform: translate(0px, -0.19px) rotate(-1.47deg);
+    transform: translate(0px, -0.15px) rotate(-1.18deg);
   }
   48.5% {
-    transform: translate(0px, -0.14px) rotate(-1.49deg);
+    transform: translate(0px, -0.11px) rotate(-1.19deg);
   }
   49.0% {
-    transform: translate(0px, -0.09px) rotate(-1.49deg);
+    transform: translate(0px, -0.08px) rotate(-1.19deg);
   }
   49.5% {
-    transform: translate(0px, -0.05px) rotate(-1.50deg);
+    transform: translate(0px, -0.04px) rotate(-1.20deg);
   }
   50.0% {
-    transform: translate(0px, -0.00px) rotate(-1.50deg);
+    transform: translate(0px, -0.00px) rotate(-1.20deg);
   }
   50.5% {
-    transform: translate(0px, 0.05px) rotate(-1.50deg);
+    transform: translate(0px, 0.04px) rotate(-1.20deg);
   }
   51.0% {
-    transform: translate(0px, 0.09px) rotate(-1.49deg);
+    transform: translate(0px, 0.08px) rotate(-1.19deg);
   }
   51.5% {
-    transform: translate(0px, 0.14px) rotate(-1.49deg);
+    transform: translate(0px, 0.11px) rotate(-1.19deg);
   }
   52.0% {
-    transform: translate(0px, 0.19px) rotate(-1.47deg);
+    transform: translate(0px, 0.15px) rotate(-1.18deg);
   }
   52.5% {
-    transform: translate(0px, 0.23px) rotate(-1.46deg);
+    transform: translate(0px, 0.19px) rotate(-1.17deg);
   }
   53.0% {
-    transform: translate(0px, 0.28px) rotate(-1.44deg);
+    transform: translate(0px, 0.22px) rotate(-1.15deg);
   }
   53.5% {
-    transform: translate(0px, 0.32px) rotate(-1.42deg);
+    transform: translate(0px, 0.26px) rotate(-1.14deg);
   }
   54.0% {
-    transform: translate(0px, 0.37px) rotate(-1.39deg);
+    transform: translate(0px, 0.29px) rotate(-1.12deg);
   }
   54.5% {
-    transform: translate(0px, 0.41px) rotate(-1.37deg);
+    transform: translate(0px, 0.33px) rotate(-1.09deg);
   }
   55.0% {
-    transform: translate(0px, 0.45px) rotate(-1.34deg);
+    transform: translate(0px, 0.36px) rotate(-1.07deg);
   }
   55.5% {
-    transform: translate(0px, 0.50px) rotate(-1.30deg);
+    transform: translate(0px, 0.40px) rotate(-1.04deg);
   }
   56.0% {
-    transform: translate(0px, 0.54px) rotate(-1.27deg);
+    transform: translate(0px, 0.43px) rotate(-1.01deg);
   }
   56.5% {
-    transform: translate(0px, 0.58px) rotate(-1.23deg);
+    transform: translate(0px, 0.46px) rotate(-0.98deg);
   }
   57.0% {
-    transform: translate(0px, 0.61px) rotate(-1.19deg);
+    transform: translate(0px, 0.49px) rotate(-0.95deg);
   }
   57.5% {
-    transform: translate(0px, 0.65px) rotate(-1.14deg);
+    transform: translate(0px, 0.52px) rotate(-0.91deg);
   }
   58.0% {
-    transform: translate(0px, 0.68px) rotate(-1.09deg);
+    transform: translate(0px, 0.55px) rotate(-0.87deg);
   }
   58.5% {
-    transform: translate(0px, 0.72px) rotate(-1.04deg);
+    transform: translate(0px, 0.57px) rotate(-0.84deg);
   }
   59.0% {
-    transform: translate(0px, 0.75px) rotate(-0.99deg);
+    transform: translate(0px, 0.60px) rotate(-0.79deg);
   }
   59.5% {
-    transform: translate(0px, 0.78px) rotate(-0.94deg);
+    transform: translate(0px, 0.62px) rotate(-0.75deg);
   }
   60.0% {
-    transform: translate(0px, 0.81px) rotate(-0.88deg);
+    transform: translate(0px, 0.65px) rotate(-0.71deg);
   }
   60.5% {
-    transform: translate(0px, 0.84px) rotate(-0.82deg);
+    transform: translate(0px, 0.67px) rotate(-0.66deg);
   }
   61.0% {
-    transform: translate(0px, 0.86px) rotate(-0.76deg);
+    transform: translate(0px, 0.69px) rotate(-0.61deg);
   }
   61.5% {
-    transform: translate(0px, 0.88px) rotate(-0.70deg);
+    transform: translate(0px, 0.71px) rotate(-0.56deg);
   }
   62.0% {
-    transform: translate(0px, 0.90px) rotate(-0.64deg);
+    transform: translate(0px, 0.72px) rotate(-0.51deg);
   }
   62.5% {
-    transform: translate(0px, 0.92px) rotate(-0.57deg);
+    transform: translate(0px, 0.74px) rotate(-0.46deg);
   }
   63.0% {
-    transform: translate(0px, 0.94px) rotate(-0.51deg);
+    transform: translate(0px, 0.75px) rotate(-0.41deg);
   }
   63.5% {
-    transform: translate(0px, 0.96px) rotate(-0.44deg);
+    transform: translate(0px, 0.76px) rotate(-0.35deg);
   }
   64.0% {
-    transform: translate(0px, 0.97px) rotate(-0.37deg);
+    transform: translate(0px, 0.77px) rotate(-0.30deg);
   }
   64.5% {
-    transform: translate(0px, 0.98px) rotate(-0.30deg);
+    transform: translate(0px, 0.78px) rotate(-0.24deg);
   }
   65.0% {
-    transform: translate(0px, 0.99px) rotate(-0.23deg);
+    transform: translate(0px, 0.79px) rotate(-0.19deg);
   }
   65.5% {
-    transform: translate(0px, 0.99px) rotate(-0.16deg);
+    transform: translate(0px, 0.80px) rotate(-0.13deg);
   }
   66.0% {
-    transform: translate(0px, 1.00px) rotate(-0.09deg);
+    transform: translate(0px, 0.80px) rotate(-0.08deg);
   }
   66.5% {
-    transform: translate(0px, 1.00px) rotate(-0.02deg);
+    transform: translate(0px, 0.80px) rotate(-0.02deg);
   }
   67.0% {
-    transform: translate(0px, 1.00px) rotate(0.05deg);
+    transform: translate(0px, 0.80px) rotate(0.04deg);
   }
   67.5% {
-    transform: translate(0px, 1.00px) rotate(0.12deg);
+    transform: translate(0px, 0.80px) rotate(0.09deg);
   }
   68.0% {
-    transform: translate(0px, 0.99px) rotate(0.19deg);
+    transform: translate(0px, 0.79px) rotate(0.15deg);
   }
   68.5% {
-    transform: translate(0px, 0.99px) rotate(0.26deg);
+    transform: translate(0px, 0.79px) rotate(0.21deg);
   }
   69.0% {
-    transform: translate(0px, 0.98px) rotate(0.33deg);
+    transform: translate(0px, 0.78px) rotate(0.26deg);
   }
   69.5% {
-    transform: translate(0px, 0.96px) rotate(0.40deg);
+    transform: translate(0px, 0.77px) rotate(0.32deg);
   }
   70.0% {
-    transform: translate(0px, 0.95px) rotate(0.46deg);
+    transform: translate(0px, 0.76px) rotate(0.37deg);
   }
   70.5% {
-    transform: translate(0px, 0.94px) rotate(0.53deg);
+    transform: translate(0px, 0.75px) rotate(0.42deg);
   }
   71.0% {
-    transform: translate(0px, 0.92px) rotate(0.60deg);
+    transform: translate(0px, 0.73px) rotate(0.48deg);
   }
   71.5% {
-    transform: translate(0px, 0.90px) rotate(0.66deg);
+    transform: translate(0px, 0.72px) rotate(0.53deg);
   }
   72.0% {
-    transform: translate(0px, 0.88px) rotate(0.72deg);
+    transform: translate(0px, 0.70px) rotate(0.58deg);
   }
   72.5% {
-    transform: translate(0px, 0.54px) rotate(-0.47deg);
+    transform: translate(0px, 0.37px) rotate(-0.62deg);
   }
   73.0% {
-    transform: translate(0px, 0.21px) rotate(-1.63deg);
+    transform: translate(0px, 0.04px) rotate(-1.80deg);
   }
   73.5% {
-    transform: translate(0px, -0.11px) rotate(-2.73deg);
+    transform: translate(0px, -0.27px) rotate(-2.91deg);
   }
   74.0% {
-    transform: translate(0px, -0.41px) rotate(-3.75deg);
+    transform: translate(0px, -0.56px) rotate(-3.94deg);
   }
   74.5% {
-    transform: translate(0px, -0.67px) rotate(-4.65deg);
+    transform: translate(0px, -0.82px) rotate(-4.85deg);
   }
   75.0% {
-    transform: translate(0px, -0.91px) rotate(-5.41deg);
+    transform: translate(0px, -1.05px) rotate(-5.62deg);
   }
   75.5% {
-    transform: translate(0px, -1.11px) rotate(-6.02deg);
+    transform: translate(0px, -1.24px) rotate(-6.24deg);
   }
   76.0% {
-    transform: translate(0px, -1.26px) rotate(-6.45deg);
+    transform: translate(0px, -1.39px) rotate(-6.68deg);
   }
   76.5% {
-    transform: translate(0px, -1.37px) rotate(-6.70deg);
+    transform: translate(0px, -1.50px) rotate(-6.94deg);
   }
   77.0% {
-    transform: translate(0px, -1.44px) rotate(-6.76deg);
+    transform: translate(0px, -1.55px) rotate(-7.01deg);
   }
   77.5% {
-    transform: translate(0px, -1.45px) rotate(-6.62deg);
+    transform: translate(0px, -1.56px) rotate(-6.88deg);
   }
   78.0% {
-    transform: translate(0px, -1.42px) rotate(-6.29deg);
+    transform: translate(0px, -1.52px) rotate(-6.56deg);
   }
   78.5% {
-    transform: translate(0px, -1.34px) rotate(-5.78deg);
+    transform: translate(0px, -1.43px) rotate(-6.05deg);
   }
   79.0% {
-    transform: translate(0px, -1.22px) rotate(-5.10deg);
+    transform: translate(0px, -1.30px) rotate(-5.37deg);
   }
   79.5% {
-    transform: translate(0px, -1.06px) rotate(-4.25deg);
+    transform: translate(0px, -1.13px) rotate(-4.53deg);
   }
   80.0% {
-    transform: translate(0px, -0.87px) rotate(-3.28deg);
+    transform: translate(0px, -0.93px) rotate(-3.56deg);
   }
   80.5% {
-    transform: translate(0px, -0.64px) rotate(-2.19deg);
+    transform: translate(0px, -0.70px) rotate(-2.47deg);
   }
   81.0% {
-    transform: translate(0px, -0.40px) rotate(-1.01deg);
+    transform: translate(0px, -0.44px) rotate(-1.30deg);
   }
   81.5% {
-    transform: translate(0px, -0.14px) rotate(0.23deg);
+    transform: translate(0px, -0.18px) rotate(-0.07deg);
   }
   82.0% {
-    transform: translate(0px, 0.13px) rotate(1.49deg);
+    transform: translate(0px, 0.10px) rotate(1.19deg);
   }
   82.5% {
-    transform: translate(0px, 0.08px) rotate(1.50deg);
+    transform: translate(0px, 0.06px) rotate(1.20deg);
   }
   83.0% {
-    transform: translate(0px, 0.03px) rotate(1.50deg);
+    transform: translate(0px, 0.03px) rotate(1.20deg);
   }
   83.5% {
-    transform: translate(0px, -0.02px) rotate(1.50deg);
+    transform: translate(0px, -0.01px) rotate(1.20deg);
   }
   84.0% {
-    transform: translate(0px, -0.06px) rotate(1.50deg);
+    transform: translate(0px, -0.05px) rotate(1.20deg);
   }
   84.5% {
-    transform: translate(0px, -0.11px) rotate(1.49deg);
+    transform: translate(0px, -0.09px) rotate(1.19deg);
   }
   85.0% {
-    transform: translate(0px, -0.16px) rotate(1.48deg);
+    transform: translate(0px, -0.13px) rotate(1.19deg);
   }
   85.5% {
-    transform: translate(0px, -0.20px) rotate(1.47deg);
+    transform: translate(0px, -0.16px) rotate(1.18deg);
   }
   86.0% {
-    transform: translate(0px, -0.25px) rotate(1.45deg);
+    transform: translate(0px, -0.20px) rotate(1.16deg);
   }
   86.5% {
-    transform: translate(0px, -0.29px) rotate(1.43deg);
+    transform: translate(0px, -0.24px) rotate(1.15deg);
   }
   87.0% {
-    transform: translate(0px, -0.34px) rotate(1.41deg);
+    transform: translate(0px, -0.27px) rotate(1.13deg);
   }
   87.5% {
-    transform: translate(0px, -0.38px) rotate(1.39deg);
+    transform: translate(0px, -0.31px) rotate(1.11deg);
   }
   88.0% {
-    transform: translate(0px, -0.43px) rotate(1.36deg);
+    transform: translate(0px, -0.34px) rotate(1.09deg);
   }
   88.5% {
-    transform: translate(0px, -0.47px) rotate(1.33deg);
+    transform: translate(0px, -0.37px) rotate(1.06deg);
   }
   89.0% {
-    transform: translate(0px, -0.51px) rotate(1.29deg);
+    transform: translate(0px, -0.41px) rotate(1.03deg);
   }
   89.5% {
-    transform: translate(0px, -0.55px) rotate(1.25deg);
+    transform: translate(0px, -0.44px) rotate(1.00deg);
   }
   90.0% {
-    transform: translate(0px, -0.59px) rotate(1.21deg);
+    transform: translate(0px, -0.47px) rotate(0.97deg);
   }
   90.5% {
-    transform: translate(0px, -0.63px) rotate(1.17deg);
+    transform: translate(0px, -0.50px) rotate(0.94deg);
   }
   91.0% {
-    transform: translate(0px, -0.66px) rotate(1.13deg);
+    transform: translate(0px, -0.53px) rotate(0.90deg);
   }
   91.5% {
-    transform: translate(0px, -0.70px) rotate(1.08deg);
+    transform: translate(0px, -0.56px) rotate(0.86deg);
   }
   92.0% {
-    transform: translate(0px, -0.73px) rotate(1.03deg);
+    transform: translate(0px, -0.58px) rotate(0.82deg);
   }
   92.5% {
-    transform: translate(0px, -0.76px) rotate(0.97deg);
+    transform: translate(0px, -0.61px) rotate(0.78deg);
   }
   93.0% {
-    transform: translate(0px, -0.79px) rotate(0.92deg);
+    transform: translate(0px, -0.63px) rotate(0.74deg);
   }
   93.5% {
-    transform: translate(0px, -0.82px) rotate(0.86deg);
+    transform: translate(0px, -0.65px) rotate(0.69deg);
   }
   94.0% {
-    transform: translate(0px, -0.84px) rotate(0.80deg);
+    transform: translate(0px, -0.68px) rotate(0.64deg);
   }
   94.5% {
-    transform: translate(0px, -0.87px) rotate(0.74deg);
+    transform: translate(0px, -0.69px) rotate(0.59deg);
   }
   95.0% {
-    transform: translate(0px, -0.89px) rotate(0.68deg);
+    transform: translate(0px, -0.71px) rotate(0.54deg);
   }
   95.5% {
-    transform: translate(0px, -0.91px) rotate(0.62deg);
+    transform: translate(0px, -0.73px) rotate(0.49deg);
   }
   96.0% {
-    transform: translate(0px, -0.93px) rotate(0.55deg);
+    transform: translate(0px, -0.74px) rotate(0.44deg);
   }
   96.5% {
-    transform: translate(0px, -0.95px) rotate(0.49deg);
+    transform: translate(0px, -0.76px) rotate(0.39deg);
   }
   97.0% {
-    transform: translate(0px, -0.96px) rotate(0.42deg);
+    transform: translate(0px, -0.77px) rotate(0.33deg);
   }
   97.5% {
-    transform: translate(0px, -0.97px) rotate(0.35deg);
+    transform: translate(0px, -0.78px) rotate(0.28deg);
   }
   98.0% {
-    transform: translate(0px, -0.98px) rotate(0.28deg);
+    transform: translate(0px, -0.79px) rotate(0.22deg);
   }
   98.5% {
-    transform: translate(0px, -0.99px) rotate(0.21deg);
+    transform: translate(0px, -0.79px) rotate(0.17deg);
   }
   99.0% {
-    transform: translate(0px, -1.00px) rotate(0.14deg);
+    transform: translate(0px, -0.80px) rotate(0.11deg);
   }
   99.5% {
-    transform: translate(0px, -1.00px) rotate(0.07deg);
+    transform: translate(0px, -0.80px) rotate(0.06deg);
   }
   100.0% {
-    transform: translate(0px, -1.00px) rotate(0.00deg);
+    transform: translate(0px, -0.80px) rotate(0.00deg);
   }
 }
 
@@ -5517,601 +5546,601 @@
     transform: translateY(0.00px);
   }
   0.5% {
-    transform: translateY(0.04px);
+    transform: translateY(0.03px);
   }
   1.0% {
-    transform: translateY(0.08px);
-  }
-  1.5% {
-    transform: translateY(0.11px);
-  }
-  2.0% {
-    transform: translateY(0.15px);
-  }
-  2.5% {
-    transform: translateY(0.19px);
-  }
-  3.0% {
-    transform: translateY(0.22px);
-  }
-  3.5% {
-    transform: translateY(0.26px);
-  }
-  4.0% {
-    transform: translateY(0.29px);
-  }
-  4.5% {
-    transform: translateY(0.33px);
-  }
-  5.0% {
-    transform: translateY(0.36px);
-  }
-  5.5% {
-    transform: translateY(0.40px);
-  }
-  6.0% {
-    transform: translateY(0.43px);
-  }
-  6.5% {
-    transform: translateY(0.46px);
-  }
-  7.0% {
-    transform: translateY(0.49px);
-  }
-  7.5% {
-    transform: translateY(0.52px);
-  }
-  8.0% {
-    transform: translateY(0.55px);
-  }
-  8.5% {
-    transform: translateY(0.57px);
-  }
-  9.0% {
-    transform: translateY(0.60px);
-  }
-  9.5% {
-    transform: translateY(0.62px);
-  }
-  10.0% {
-    transform: translateY(0.65px);
-  }
-  10.5% {
-    transform: translateY(0.67px);
-  }
-  11.0% {
-    transform: translateY(0.69px);
-  }
-  11.5% {
-    transform: translateY(0.71px);
-  }
-  12.0% {
-    transform: translateY(0.72px);
-  }
-  12.5% {
-    transform: translateY(0.74px);
-  }
-  13.0% {
-    transform: translateY(0.75px);
-  }
-  13.5% {
-    transform: translateY(0.76px);
-  }
-  14.0% {
-    transform: translateY(0.77px);
-  }
-  14.5% {
-    transform: translateY(0.78px);
-  }
-  15.0% {
-    transform: translateY(0.79px);
-  }
-  15.5% {
-    transform: translateY(0.80px);
-  }
-  16.0% {
-    transform: translateY(0.80px);
-  }
-  16.5% {
-    transform: translateY(0.80px);
-  }
-  17.0% {
-    transform: translateY(0.80px);
-  }
-  17.5% {
-    transform: translateY(0.80px);
-  }
-  18.0% {
-    transform: translateY(0.79px);
-  }
-  18.5% {
-    transform: translateY(0.79px);
-  }
-  19.0% {
-    transform: translateY(0.78px);
-  }
-  19.5% {
-    transform: translateY(0.77px);
-  }
-  20.0% {
-    transform: translateY(0.76px);
-  }
-  20.5% {
-    transform: translateY(0.75px);
-  }
-  21.0% {
-    transform: translateY(0.73px);
-  }
-  21.5% {
-    transform: translateY(0.72px);
-  }
-  22.0% {
-    transform: translateY(0.70px);
-  }
-  22.5% {
-    transform: translateY(0.68px);
-  }
-  23.0% {
-    transform: translateY(0.66px);
-  }
-  23.5% {
-    transform: translateY(0.64px);
-  }
-  24.0% {
-    transform: translateY(0.62px);
-  }
-  24.5% {
-    transform: translateY(0.59px);
-  }
-  25.0% {
-    transform: translateY(0.57px);
-  }
-  25.5% {
-    transform: translateY(0.54px);
-  }
-  26.0% {
-    transform: translateY(0.51px);
-  }
-  26.5% {
-    transform: translateY(0.48px);
-  }
-  27.0% {
-    transform: translateY(0.45px);
-  }
-  27.5% {
-    transform: translateY(0.42px);
-  }
-  28.0% {
-    transform: translateY(0.39px);
-  }
-  28.5% {
-    transform: translateY(0.35px);
-  }
-  29.0% {
-    transform: translateY(0.32px);
-  }
-  29.5% {
-    transform: translateY(0.28px);
-  }
-  30.0% {
-    transform: translateY(0.25px);
-  }
-  30.5% {
-    transform: translateY(0.21px);
-  }
-  31.0% {
-    transform: translateY(0.17px);
-  }
-  31.5% {
-    transform: translateY(0.14px);
-  }
-  32.0% {
-    transform: translateY(0.10px);
-  }
-  32.5% {
     transform: translateY(0.06px);
   }
+  1.5% {
+    transform: translateY(0.08px);
+  }
+  2.0% {
+    transform: translateY(0.11px);
+  }
+  2.5% {
+    transform: translateY(0.14px);
+  }
+  3.0% {
+    transform: translateY(0.17px);
+  }
+  3.5% {
+    transform: translateY(0.19px);
+  }
+  4.0% {
+    transform: translateY(0.22px);
+  }
+  4.5% {
+    transform: translateY(0.25px);
+  }
+  5.0% {
+    transform: translateY(0.27px);
+  }
+  5.5% {
+    transform: translateY(0.30px);
+  }
+  6.0% {
+    transform: translateY(0.32px);
+  }
+  6.5% {
+    transform: translateY(0.35px);
+  }
+  7.0% {
+    transform: translateY(0.37px);
+  }
+  7.5% {
+    transform: translateY(0.39px);
+  }
+  8.0% {
+    transform: translateY(0.41px);
+  }
+  8.5% {
+    transform: translateY(0.43px);
+  }
+  9.0% {
+    transform: translateY(0.45px);
+  }
+  9.5% {
+    transform: translateY(0.47px);
+  }
+  10.0% {
+    transform: translateY(0.49px);
+  }
+  10.5% {
+    transform: translateY(0.50px);
+  }
+  11.0% {
+    transform: translateY(0.52px);
+  }
+  11.5% {
+    transform: translateY(0.53px);
+  }
+  12.0% {
+    transform: translateY(0.54px);
+  }
+  12.5% {
+    transform: translateY(0.55px);
+  }
+  13.0% {
+    transform: translateY(0.56px);
+  }
+  13.5% {
+    transform: translateY(0.57px);
+  }
+  14.0% {
+    transform: translateY(0.58px);
+  }
+  14.5% {
+    transform: translateY(0.59px);
+  }
+  15.0% {
+    transform: translateY(0.59px);
+  }
+  15.5% {
+    transform: translateY(0.60px);
+  }
+  16.0% {
+    transform: translateY(0.60px);
+  }
+  16.5% {
+    transform: translateY(0.60px);
+  }
+  17.0% {
+    transform: translateY(0.60px);
+  }
+  17.5% {
+    transform: translateY(0.60px);
+  }
+  18.0% {
+    transform: translateY(0.60px);
+  }
+  18.5% {
+    transform: translateY(0.59px);
+  }
+  19.0% {
+    transform: translateY(0.59px);
+  }
+  19.5% {
+    transform: translateY(0.58px);
+  }
+  20.0% {
+    transform: translateY(0.57px);
+  }
+  20.5% {
+    transform: translateY(0.56px);
+  }
+  21.0% {
+    transform: translateY(0.55px);
+  }
+  21.5% {
+    transform: translateY(0.54px);
+  }
+  22.0% {
+    transform: translateY(0.53px);
+  }
+  22.5% {
+    transform: translateY(0.51px);
+  }
+  23.0% {
+    transform: translateY(0.50px);
+  }
+  23.5% {
+    transform: translateY(0.48px);
+  }
+  24.0% {
+    transform: translateY(0.46px);
+  }
+  24.5% {
+    transform: translateY(0.44px);
+  }
+  25.0% {
+    transform: translateY(0.42px);
+  }
+  25.5% {
+    transform: translateY(0.40px);
+  }
+  26.0% {
+    transform: translateY(0.38px);
+  }
+  26.5% {
+    transform: translateY(0.36px);
+  }
+  27.0% {
+    transform: translateY(0.34px);
+  }
+  27.5% {
+    transform: translateY(0.31px);
+  }
+  28.0% {
+    transform: translateY(0.29px);
+  }
+  28.5% {
+    transform: translateY(0.26px);
+  }
+  29.0% {
+    transform: translateY(0.24px);
+  }
+  29.5% {
+    transform: translateY(0.21px);
+  }
+  30.0% {
+    transform: translateY(0.19px);
+  }
+  30.5% {
+    transform: translateY(0.16px);
+  }
+  31.0% {
+    transform: translateY(0.13px);
+  }
+  31.5% {
+    transform: translateY(0.10px);
+  }
+  32.0% {
+    transform: translateY(0.08px);
+  }
+  32.5% {
+    transform: translateY(0.05px);
+  }
   33.0% {
-    transform: translateY(0.03px);
+    transform: translateY(0.02px);
   }
   33.5% {
     transform: translateY(-0.01px);
   }
   34.0% {
-    transform: translateY(-0.05px);
+    transform: translateY(-0.04px);
   }
   34.5% {
-    transform: translateY(-0.09px);
+    transform: translateY(-0.07px);
   }
   35.0% {
-    transform: translateY(-0.13px);
-  }
-  35.5% {
-    transform: translateY(-0.16px);
-  }
-  36.0% {
-    transform: translateY(-0.20px);
-  }
-  36.5% {
-    transform: translateY(-0.24px);
-  }
-  37.0% {
-    transform: translateY(-0.27px);
-  }
-  37.5% {
-    transform: translateY(-0.31px);
-  }
-  38.0% {
-    transform: translateY(-0.34px);
-  }
-  38.5% {
-    transform: translateY(-0.37px);
-  }
-  39.0% {
-    transform: translateY(-0.41px);
-  }
-  39.5% {
-    transform: translateY(-0.44px);
-  }
-  40.0% {
-    transform: translateY(-0.47px);
-  }
-  40.5% {
-    transform: translateY(-0.50px);
-  }
-  41.0% {
-    transform: translateY(-0.53px);
-  }
-  41.5% {
-    transform: translateY(-0.56px);
-  }
-  42.0% {
-    transform: translateY(-0.58px);
-  }
-  42.5% {
-    transform: translateY(-0.61px);
-  }
-  43.0% {
-    transform: translateY(-0.63px);
-  }
-  43.5% {
-    transform: translateY(-0.65px);
-  }
-  44.0% {
-    transform: translateY(-0.68px);
-  }
-  44.5% {
-    transform: translateY(-0.69px);
-  }
-  45.0% {
-    transform: translateY(-0.71px);
-  }
-  45.5% {
-    transform: translateY(-0.73px);
-  }
-  46.0% {
-    transform: translateY(-0.74px);
-  }
-  46.5% {
-    transform: translateY(-0.76px);
-  }
-  47.0% {
-    transform: translateY(-0.77px);
-  }
-  47.5% {
-    transform: translateY(-0.78px);
-  }
-  48.0% {
-    transform: translateY(-0.79px);
-  }
-  48.5% {
-    transform: translateY(-0.79px);
-  }
-  49.0% {
-    transform: translateY(-0.80px);
-  }
-  49.5% {
-    transform: translateY(-0.80px);
-  }
-  50.0% {
-    transform: translateY(-0.80px);
-  }
-  50.5% {
-    transform: translateY(-0.80px);
-  }
-  51.0% {
-    transform: translateY(-0.80px);
-  }
-  51.5% {
-    transform: translateY(-0.79px);
-  }
-  52.0% {
-    transform: translateY(-0.79px);
-  }
-  52.5% {
-    transform: translateY(-0.78px);
-  }
-  53.0% {
-    transform: translateY(-0.77px);
-  }
-  53.5% {
-    transform: translateY(-0.76px);
-  }
-  54.0% {
-    transform: translateY(-0.74px);
-  }
-  54.5% {
-    transform: translateY(-0.73px);
-  }
-  55.0% {
-    transform: translateY(-0.71px);
-  }
-  55.5% {
-    transform: translateY(-0.69px);
-  }
-  56.0% {
-    transform: translateY(-0.68px);
-  }
-  56.5% {
-    transform: translateY(-0.65px);
-  }
-  57.0% {
-    transform: translateY(-0.63px);
-  }
-  57.5% {
-    transform: translateY(-0.61px);
-  }
-  58.0% {
-    transform: translateY(-0.58px);
-  }
-  58.5% {
-    transform: translateY(-0.56px);
-  }
-  59.0% {
-    transform: translateY(-0.53px);
-  }
-  59.5% {
-    transform: translateY(-0.50px);
-  }
-  60.0% {
-    transform: translateY(-0.47px);
-  }
-  60.5% {
-    transform: translateY(-0.44px);
-  }
-  61.0% {
-    transform: translateY(-0.41px);
-  }
-  61.5% {
-    transform: translateY(-0.37px);
-  }
-  62.0% {
-    transform: translateY(-0.34px);
-  }
-  62.5% {
-    transform: translateY(-0.31px);
-  }
-  63.0% {
-    transform: translateY(-0.27px);
-  }
-  63.5% {
-    transform: translateY(-0.24px);
-  }
-  64.0% {
-    transform: translateY(-0.20px);
-  }
-  64.5% {
-    transform: translateY(-0.16px);
-  }
-  65.0% {
-    transform: translateY(-0.13px);
-  }
-  65.5% {
     transform: translateY(-0.09px);
   }
+  35.5% {
+    transform: translateY(-0.12px);
+  }
+  36.0% {
+    transform: translateY(-0.15px);
+  }
+  36.5% {
+    transform: translateY(-0.18px);
+  }
+  37.0% {
+    transform: translateY(-0.20px);
+  }
+  37.5% {
+    transform: translateY(-0.23px);
+  }
+  38.0% {
+    transform: translateY(-0.26px);
+  }
+  38.5% {
+    transform: translateY(-0.28px);
+  }
+  39.0% {
+    transform: translateY(-0.31px);
+  }
+  39.5% {
+    transform: translateY(-0.33px);
+  }
+  40.0% {
+    transform: translateY(-0.35px);
+  }
+  40.5% {
+    transform: translateY(-0.38px);
+  }
+  41.0% {
+    transform: translateY(-0.40px);
+  }
+  41.5% {
+    transform: translateY(-0.42px);
+  }
+  42.0% {
+    transform: translateY(-0.44px);
+  }
+  42.5% {
+    transform: translateY(-0.46px);
+  }
+  43.0% {
+    transform: translateY(-0.47px);
+  }
+  43.5% {
+    transform: translateY(-0.49px);
+  }
+  44.0% {
+    transform: translateY(-0.51px);
+  }
+  44.5% {
+    transform: translateY(-0.52px);
+  }
+  45.0% {
+    transform: translateY(-0.53px);
+  }
+  45.5% {
+    transform: translateY(-0.55px);
+  }
+  46.0% {
+    transform: translateY(-0.56px);
+  }
+  46.5% {
+    transform: translateY(-0.57px);
+  }
+  47.0% {
+    transform: translateY(-0.58px);
+  }
+  47.5% {
+    transform: translateY(-0.58px);
+  }
+  48.0% {
+    transform: translateY(-0.59px);
+  }
+  48.5% {
+    transform: translateY(-0.59px);
+  }
+  49.0% {
+    transform: translateY(-0.60px);
+  }
+  49.5% {
+    transform: translateY(-0.60px);
+  }
+  50.0% {
+    transform: translateY(-0.60px);
+  }
+  50.5% {
+    transform: translateY(-0.60px);
+  }
+  51.0% {
+    transform: translateY(-0.60px);
+  }
+  51.5% {
+    transform: translateY(-0.59px);
+  }
+  52.0% {
+    transform: translateY(-0.59px);
+  }
+  52.5% {
+    transform: translateY(-0.58px);
+  }
+  53.0% {
+    transform: translateY(-0.58px);
+  }
+  53.5% {
+    transform: translateY(-0.57px);
+  }
+  54.0% {
+    transform: translateY(-0.56px);
+  }
+  54.5% {
+    transform: translateY(-0.55px);
+  }
+  55.0% {
+    transform: translateY(-0.53px);
+  }
+  55.5% {
+    transform: translateY(-0.52px);
+  }
+  56.0% {
+    transform: translateY(-0.51px);
+  }
+  56.5% {
+    transform: translateY(-0.49px);
+  }
+  57.0% {
+    transform: translateY(-0.47px);
+  }
+  57.5% {
+    transform: translateY(-0.46px);
+  }
+  58.0% {
+    transform: translateY(-0.44px);
+  }
+  58.5% {
+    transform: translateY(-0.42px);
+  }
+  59.0% {
+    transform: translateY(-0.40px);
+  }
+  59.5% {
+    transform: translateY(-0.38px);
+  }
+  60.0% {
+    transform: translateY(-0.35px);
+  }
+  60.5% {
+    transform: translateY(-0.33px);
+  }
+  61.0% {
+    transform: translateY(-0.31px);
+  }
+  61.5% {
+    transform: translateY(-0.28px);
+  }
+  62.0% {
+    transform: translateY(-0.26px);
+  }
+  62.5% {
+    transform: translateY(-0.23px);
+  }
+  63.0% {
+    transform: translateY(-0.20px);
+  }
+  63.5% {
+    transform: translateY(-0.18px);
+  }
+  64.0% {
+    transform: translateY(-0.15px);
+  }
+  64.5% {
+    transform: translateY(-0.12px);
+  }
+  65.0% {
+    transform: translateY(-0.09px);
+  }
+  65.5% {
+    transform: translateY(-0.07px);
+  }
   66.0% {
-    transform: translateY(-0.05px);
+    transform: translateY(-0.04px);
   }
   66.5% {
     transform: translateY(-0.01px);
   }
   67.0% {
-    transform: translateY(0.03px);
+    transform: translateY(0.02px);
   }
   67.5% {
-    transform: translateY(0.06px);
+    transform: translateY(0.05px);
   }
   68.0% {
-    transform: translateY(0.10px);
-  }
-  68.5% {
-    transform: translateY(0.14px);
-  }
-  69.0% {
-    transform: translateY(0.17px);
-  }
-  69.5% {
-    transform: translateY(0.21px);
-  }
-  70.0% {
-    transform: translateY(0.25px);
-  }
-  70.5% {
-    transform: translateY(0.28px);
-  }
-  71.0% {
-    transform: translateY(0.32px);
-  }
-  71.5% {
-    transform: translateY(0.35px);
-  }
-  72.0% {
-    transform: translateY(0.39px);
-  }
-  72.5% {
-    transform: translateY(0.42px);
-  }
-  73.0% {
-    transform: translateY(0.45px);
-  }
-  73.5% {
-    transform: translateY(0.48px);
-  }
-  74.0% {
-    transform: translateY(0.51px);
-  }
-  74.5% {
-    transform: translateY(0.54px);
-  }
-  75.0% {
-    transform: translateY(0.57px);
-  }
-  75.5% {
-    transform: translateY(0.59px);
-  }
-  76.0% {
-    transform: translateY(0.62px);
-  }
-  76.5% {
-    transform: translateY(0.64px);
-  }
-  77.0% {
-    transform: translateY(0.66px);
-  }
-  77.5% {
-    transform: translateY(0.68px);
-  }
-  78.0% {
-    transform: translateY(0.70px);
-  }
-  78.5% {
-    transform: translateY(0.72px);
-  }
-  79.0% {
-    transform: translateY(0.73px);
-  }
-  79.5% {
-    transform: translateY(0.75px);
-  }
-  80.0% {
-    transform: translateY(0.76px);
-  }
-  80.5% {
-    transform: translateY(0.77px);
-  }
-  81.0% {
-    transform: translateY(0.78px);
-  }
-  81.5% {
-    transform: translateY(0.79px);
-  }
-  82.0% {
-    transform: translateY(0.79px);
-  }
-  82.5% {
-    transform: translateY(0.80px);
-  }
-  83.0% {
-    transform: translateY(0.80px);
-  }
-  83.5% {
-    transform: translateY(0.80px);
-  }
-  84.0% {
-    transform: translateY(0.80px);
-  }
-  84.5% {
-    transform: translateY(0.80px);
-  }
-  85.0% {
-    transform: translateY(0.79px);
-  }
-  85.5% {
-    transform: translateY(0.78px);
-  }
-  86.0% {
-    transform: translateY(0.77px);
-  }
-  86.5% {
-    transform: translateY(0.76px);
-  }
-  87.0% {
-    transform: translateY(0.75px);
-  }
-  87.5% {
-    transform: translateY(0.74px);
-  }
-  88.0% {
-    transform: translateY(0.72px);
-  }
-  88.5% {
-    transform: translateY(0.71px);
-  }
-  89.0% {
-    transform: translateY(0.69px);
-  }
-  89.5% {
-    transform: translateY(0.67px);
-  }
-  90.0% {
-    transform: translateY(0.65px);
-  }
-  90.5% {
-    transform: translateY(0.62px);
-  }
-  91.0% {
-    transform: translateY(0.60px);
-  }
-  91.5% {
-    transform: translateY(0.57px);
-  }
-  92.0% {
-    transform: translateY(0.55px);
-  }
-  92.5% {
-    transform: translateY(0.52px);
-  }
-  93.0% {
-    transform: translateY(0.49px);
-  }
-  93.5% {
-    transform: translateY(0.46px);
-  }
-  94.0% {
-    transform: translateY(0.43px);
-  }
-  94.5% {
-    transform: translateY(0.40px);
-  }
-  95.0% {
-    transform: translateY(0.36px);
-  }
-  95.5% {
-    transform: translateY(0.33px);
-  }
-  96.0% {
-    transform: translateY(0.29px);
-  }
-  96.5% {
-    transform: translateY(0.26px);
-  }
-  97.0% {
-    transform: translateY(0.22px);
-  }
-  97.5% {
-    transform: translateY(0.19px);
-  }
-  98.0% {
-    transform: translateY(0.15px);
-  }
-  98.5% {
-    transform: translateY(0.11px);
-  }
-  99.0% {
     transform: translateY(0.08px);
   }
+  68.5% {
+    transform: translateY(0.10px);
+  }
+  69.0% {
+    transform: translateY(0.13px);
+  }
+  69.5% {
+    transform: translateY(0.16px);
+  }
+  70.0% {
+    transform: translateY(0.19px);
+  }
+  70.5% {
+    transform: translateY(0.21px);
+  }
+  71.0% {
+    transform: translateY(0.24px);
+  }
+  71.5% {
+    transform: translateY(0.26px);
+  }
+  72.0% {
+    transform: translateY(0.29px);
+  }
+  72.5% {
+    transform: translateY(0.31px);
+  }
+  73.0% {
+    transform: translateY(0.34px);
+  }
+  73.5% {
+    transform: translateY(0.36px);
+  }
+  74.0% {
+    transform: translateY(0.38px);
+  }
+  74.5% {
+    transform: translateY(0.40px);
+  }
+  75.0% {
+    transform: translateY(0.42px);
+  }
+  75.5% {
+    transform: translateY(0.44px);
+  }
+  76.0% {
+    transform: translateY(0.46px);
+  }
+  76.5% {
+    transform: translateY(0.48px);
+  }
+  77.0% {
+    transform: translateY(0.50px);
+  }
+  77.5% {
+    transform: translateY(0.51px);
+  }
+  78.0% {
+    transform: translateY(0.53px);
+  }
+  78.5% {
+    transform: translateY(0.54px);
+  }
+  79.0% {
+    transform: translateY(0.55px);
+  }
+  79.5% {
+    transform: translateY(0.56px);
+  }
+  80.0% {
+    transform: translateY(0.57px);
+  }
+  80.5% {
+    transform: translateY(0.58px);
+  }
+  81.0% {
+    transform: translateY(0.59px);
+  }
+  81.5% {
+    transform: translateY(0.59px);
+  }
+  82.0% {
+    transform: translateY(0.60px);
+  }
+  82.5% {
+    transform: translateY(0.60px);
+  }
+  83.0% {
+    transform: translateY(0.60px);
+  }
+  83.5% {
+    transform: translateY(0.60px);
+  }
+  84.0% {
+    transform: translateY(0.60px);
+  }
+  84.5% {
+    transform: translateY(0.60px);
+  }
+  85.0% {
+    transform: translateY(0.59px);
+  }
+  85.5% {
+    transform: translateY(0.59px);
+  }
+  86.0% {
+    transform: translateY(0.58px);
+  }
+  86.5% {
+    transform: translateY(0.57px);
+  }
+  87.0% {
+    transform: translateY(0.56px);
+  }
+  87.5% {
+    transform: translateY(0.55px);
+  }
+  88.0% {
+    transform: translateY(0.54px);
+  }
+  88.5% {
+    transform: translateY(0.53px);
+  }
+  89.0% {
+    transform: translateY(0.52px);
+  }
+  89.5% {
+    transform: translateY(0.50px);
+  }
+  90.0% {
+    transform: translateY(0.49px);
+  }
+  90.5% {
+    transform: translateY(0.47px);
+  }
+  91.0% {
+    transform: translateY(0.45px);
+  }
+  91.5% {
+    transform: translateY(0.43px);
+  }
+  92.0% {
+    transform: translateY(0.41px);
+  }
+  92.5% {
+    transform: translateY(0.39px);
+  }
+  93.0% {
+    transform: translateY(0.37px);
+  }
+  93.5% {
+    transform: translateY(0.35px);
+  }
+  94.0% {
+    transform: translateY(0.32px);
+  }
+  94.5% {
+    transform: translateY(0.30px);
+  }
+  95.0% {
+    transform: translateY(0.27px);
+  }
+  95.5% {
+    transform: translateY(0.25px);
+  }
+  96.0% {
+    transform: translateY(0.22px);
+  }
+  96.5% {
+    transform: translateY(0.19px);
+  }
+  97.0% {
+    transform: translateY(0.17px);
+  }
+  97.5% {
+    transform: translateY(0.14px);
+  }
+  98.0% {
+    transform: translateY(0.11px);
+  }
+  98.5% {
+    transform: translateY(0.08px);
+  }
+  99.0% {
+    transform: translateY(0.06px);
+  }
   99.5% {
-    transform: translateY(0.04px);
+    transform: translateY(0.03px);
   }
   100.0% {
     transform: translateY(0.00px);
@@ -6124,157 +6153,299 @@
 }
 
 @keyframes glow_flicker {
-  0%, 100% { opacity: 0.08; }
-  50% { opacity: 0.12; }
-  70% { opacity: 0.09; }
+  0%, 100% { opacity: 0.06; }
+  50% { opacity: 0.14; }
+  70% { opacity: 0.08; }
 }
 
 @keyframes steam_anim {
   0%, 100% { opacity: 0.1; transform: translateY(0) scaleX(1); }
-  50% { opacity: 0.4; transform: translateY(-10px) scaleX(1.2); }
+  50% { opacity: 0.4; transform: translateY(-12px) scaleX(1.2); }
+}
+
+@keyframes wind_sway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(2.5deg); }
 }
 
   </style>
 
-  <!-- 3D Office Chair Backrest -->
-  <path d="M 210 260 C 180 260 170 420 210 440 L 250 440 Z" fill="#202A36" filter="url(#shadow)" />
+  <!-- BACKGROUND: Cozy night room wall -->
+  <rect x="0" y="0" width="1200" height="600" fill="url(#wall-grad)" />
 
-  <!-- Cozy Desk (Wood Tabletop) -->
-  <rect x="50" y="460" width="1100" height="110" rx="12" fill="url(#desk-grad)" filter="url(#shadow)" />
-  <!-- Under desk shadows -->
-  <rect x="50" y="472" width="1100" height="8" fill="#150B06" />
+  <!-- Background Wall Details (Framed Art Poster) -->
+  <g transform="translate(80, 60)" filter="url(#shadow)">
+    <rect x="0" y="0" width="130" height="180" rx="3" fill="#1C1A22" stroke="#3A3845" stroke-width="6" />
+    <!-- Poster content: Minimalist mountains & moon -->
+    <circle cx="65" cy="80" r="22" fill="#E5A93C" opacity="0.8" />
+    <path d="M 15 160 L 65 100 L 115 160 Z" fill="#2E4F4F" opacity="0.9" />
+    <path d="M 45 160 L 85 120 L 125 160 Z" fill="#1E3838" />
+  </g>
+
+  <!-- Background Wall Details (Cozy Window with night sky) -->
+  <g transform="translate(900, 50)" filter="url(#shadow)">
+    <!-- Window frame -->
+    <rect x="0" y="0" width="220" height="280" rx="4" fill="#0B0A0D" stroke="#25242E" stroke-width="8" />
+    <!-- Glass panes -->
+    <rect x="8" y="8" width="98" height="128" fill="#07060A" />
+    <rect x="114" y="8" width="98" height="128" fill="#07060A" />
+    <rect x="8" y="144" width="98" height="128" fill="#07060A" />
+    <rect x="114" y="144" width="98" height="128" fill="#07060A" />
+    
+    <!-- Stars in glass panes -->
+    <circle cx="30" cy="40" r="1" fill="#FFFFFF" opacity="0.8" />
+    <circle cx="80" cy="70" r="1" fill="#FFFFFF" opacity="0.6" />
+    <circle cx="160" cy="30" r="1.5" fill="#FFF59D" opacity="0.9" />
+    <circle cx="140" cy="90" r="1" fill="#FFFFFF" opacity="0.5" />
+    
+    <!-- Distant Moon -->
+    <path d="M 175 45 A 12 12 0 1 0 187 57 A 9 9 0 1 1 175 45 Z" fill="#FFF59D" opacity="0.85" />
+  </g>
+
+  <!-- 3D Office Chair Backrest -->
+  <path d="M 210 230 C 175 230 165 410 210 440 L 260 440 Z" fill="#1B242E" filter="url(#shadow)" />
+  <rect x="235" y="340" width="10" height="90" fill="#2C3E50" />
+
+  <!-- Cozy Desk (Wood Tabletop with depth) -->
+  <rect x="40" y="440" width="1120" height="110" rx="14" fill="url(#desk-top)" filter="url(#room-shadow)" />
+  <!-- Beveled desk thickness -->
+  <path d="M 40 550 L 1160 550 L 1150 565 L 50 565 Z" fill="url(#desk-bevel)" />
+
+  <!-- Drawer Units under desk -->
+  <g transform="translate(80, 550)">
+    <rect x="0" y="0" width="150" height="50" fill="#20130A" />
+    <circle cx="75" cy="25" r="5" fill="#8D6E63" />
+  </g>
+  <g transform="translate(970, 550)">
+    <rect x="0" y="0" width="150" height="50" fill="#20130A" />
+    <circle cx="75" cy="25" r="5" fill="#8D6E63" />
+  </g>
+
+  <!-- Desk Mat with LED lighting border -->
+  <rect x="360" y="445" width="480" height="100" rx="8" fill="url(#mat-border)" />
+  <rect x="364" y="449" width="472" height="92" rx="6" fill="#1E1D24" />
+
+  <!-- 3D Geometric Flower Pot & Succulent Plant -->
+  <g class="plant-class" style="transform-origin: 395px 445px;">
+    <!-- Pot -->
+    <polygon points="380,445 410,445 405,420 385,420" fill="#B0BEC5" filter="url(#shadow)" />
+    <!-- Soil -->
+    <ellipse cx="395" cy="420" rx="10" ry="2" fill="#5D4037" />
+    <!-- Succulent Layer 1 -->
+    <path d="M 395 420 Q 380 405 385 395 Q 395 405 395 420 Z" fill="#4CAF50" />
+    <path d="M 395 420 Q 410 405 405 395 Q 395 405 395 420 Z" fill="#4CAF50" />
+    <path d="M 395 420 Q 395 390 395 420 Z" fill="#81C784" />
+    <!-- Succulent Layer 2 (smaller leaves) -->
+    <path d="M 395 420 Q 388 410 392 402" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round" />
+    <path d="M 395 420 Q 402 410 398 402" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round" />
+  </g>
 
   <!-- Desk Lamp Assembly -->
   <!-- Base -->
-  <ellipse cx="920" cy="465" rx="35" ry="12" fill="#2A2A2E" filter="url(#shadow)" />
-  <!-- Stem -->
-  <path d="M 920 465 Q 960 300 840 200" fill="none" stroke="#3A3A40" stroke-width="8" stroke-linecap="round" />
-  <path d="M 920 465 Q 960 300 840 200" fill="none" stroke="#232326" stroke-width="4" stroke-linecap="round" />
-  <!-- Shade -->
-  <g transform="translate(840, 200) rotate(35)">
-    <path d="M -30 -15 L 30 -15 L 45 25 L -45 25 Z" fill="#2A2A2E" />
-    <!-- Yellow bulb glow inside shade -->
-    <ellipse cx="0" cy="22" rx="30" ry="8" fill="#FFEE58" />
+  <ellipse cx="940" cy="465" rx="35" ry="12" fill="#2C2C32" filter="url(#shadow)" />
+  <!-- Metal joints and arm -->
+  <path d="M 940 465 L 965 370 L 890 240" fill="none" stroke="#3A3A40" stroke-width="8" stroke-linecap="round" />
+  <!-- Wire wrap detail -->
+  <path d="M 940 465 Q 950 420 955 375 Q 930 330 910 285 Q 895 250 890 240" fill="none" stroke="#151419" stroke-width="2" />
+  <!-- Lamp shade -->
+  <g transform="translate(890, 240) rotate(32)">
+    <path d="M -30 -15 L 30 -15 L 45 25 L -45 25 Z" fill="#2C2C32" />
+    <ellipse cx="0" cy="22" rx="30" ry="8" fill="#FFF176" />
   </g>
-  <!-- Warm Lamp Light Cone -->
-  <polygon points="815,225 860,205 1100,460 550,460" fill="url(#lamp-glow)" style="mix-blend-mode: screen; pointer-events: none;" />
+  <!-- Light Cone -->
+  <polygon points="868,260 912,240 1120,460 550,460" fill="url(#lamp-glow)" style="mix-blend-mode: screen; pointer-events: none;" />
 
   <!-- Monitor Stand -->
-  <path d="M 590 460 L 590 370 L 570 370 L 610 370 Z" fill="#25252A" stroke="#1A1A1E" stroke-width="4" />
-  <ellipse cx="590" cy="460" rx="50" ry="12" fill="#25252A" />
+  <path d="M 600 445 L 600 350 L 585 350 L 615 350 Z" fill="#2C2C32" stroke="#1C1B20" stroke-width="4" />
+  <ellipse cx="600" cy="445" rx="55" ry="12" fill="#25252A" />
 
-  <!-- Monitor Frame -->
-  <rect x="420" y="170" width="340" height="210" rx="14" fill="#2A2A2F" filter="url(#shadow)" />
+  <!-- Monitor Curved Frame -->
+  <rect x="400" y="140" width="400" height="230" rx="18" fill="#25252A" filter="url(#shadow)" stroke="#3A3A40" stroke-width="2" />
   <!-- Inner Screen -->
-  <rect x="435" y="185" width="310" height="180" rx="6" fill="#16151B" />
+  <rect x="415" y="155" width="370" height="200" rx="8" fill="#111015" />
 
-  <!-- Screen Coding Content (Scrolling Lines) -->
+  <!-- Screen Content (IDE layout) -->
   <g>
-    <!-- Clip screen content area -->
     <clipPath id="screen-clip">
-      <rect x="435" y="185" width="310" height="180" rx="6" />
+      <rect x="415" y="155" width="370" height="200" rx="8" />
     </clipPath>
     
     <g clip-path="url(#screen-clip)">
+      <!-- Sidebar panel (VS Code look) -->
+      <rect x="415" y="155" width="45" height="200" fill="#1A1920" />
+      <circle cx="437" cy="175" r="4" fill="#00D5FF" />
+      <rect x="427" y="195" width="20" height="4" fill="#4F4E5A" />
+      <rect x="427" y="210" width="20" height="4" fill="#4F4E5A" />
+      <rect x="427" y="225" width="20" height="4" fill="#4F4E5A" />
+      
+      <!-- File Tree Panel -->
+      <rect x="460" y="155" width="60" height="200" fill="#141318" />
+      <rect x="468" y="170" width="45" height="6" rx="1" fill="#4F4E5A" />
+      <rect x="475" y="185" width="35" height="5" rx="1" fill="#E5A93C" />
+      <rect x="475" y="200" width="40" height="5" rx="1" fill="#00D5FF" />
+      
+      <!-- Editor Panel with scrolling lines -->
       <g class="code-scroll-class">
-        <!-- Repeating scrolling lines of code -->
-        <!-- Code block 1 -->
-        <rect x="450" y="200" width="80" height="8" rx="2" fill="#00D5FF" />
-        <rect x="450" y="215" width="150" height="8" rx="2" fill="#A9B7C6" />
-        <rect x="470" y="230" width="180" height="8" rx="2" fill="#E5A93C" />
-        <rect x="470" y="425" width="100" height="8" rx="2" fill="#00D5FF" />
-        <rect x="490" y="260" width="120" height="8" rx="2" fill="#A9B7C6" />
-        <rect x="450" y="275" width="50" height="8" rx="2" fill="#A0C880" />
-        
-        <!-- Code block 2 -->
-        <rect x="450" y="300" width="90" height="8" rx="2" fill="#00D5FF" />
-        <rect x="450" y="315" width="170" height="8" rx="2" fill="#A9B7C6" />
-        <rect x="470" y="330" width="120" height="8" rx="2" fill="#E5A93C" />
-        <rect x="470" y="345" width="160" height="8" rx="2" fill="#00D5FF" />
-        <rect x="450" y="360" width="60" height="8" rx="2" fill="#A0C880" />
+        <g transform="translate(530, 160)">
+          <!-- Line 1 -->
+          <rect x="0" y="0" width="60" height="6" rx="1.5" fill="#E5A93C" />
+          <!-- Line 2 -->
+          <rect x="0" y="12" width="120" height="6" rx="1.5" fill="#A9B7C6" />
+          <!-- Line 3 (nested) -->
+          <rect x="15" y="24" width="160" height="6" rx="1.5" fill="#00D5FF" />
+          <!-- Line 4 -->
+          <rect x="15" y="36" width="90" height="6" rx="1.5" fill="#E5A93C" />
+          <!-- Line 5 -->
+          <rect x="30" y="48" width="110" height="6" rx="1.5" fill="#A0C880" />
+          <!-- Line 6 -->
+          <rect x="15" y="60" width="50" height="6" rx="1.5" fill="#A9B7C6" />
+          
+          <!-- Line 7 -->
+          <rect x="0" y="78" width="80" height="6" rx="1.5" fill="#E5A93C" />
+          <!-- Line 8 -->
+          <rect x="15" y="90" width="150" height="6" rx="1.5" fill="#00D5FF" />
+          <!-- Line 9 -->
+          <rect x="30" y="102" width="100" height="6" rx="1.5" fill="#A0C880" />
+          <!-- Line 10 -->
+          <rect x="15" y="114" width="70" height="6" rx="1.5" fill="#A9B7C6" />
 
-        <!-- Code block 1 duplicate for seamless loop -->
-        <rect x="450" y="380" width="80" height="8" rx="2" fill="#00D5FF" />
-        <rect x="450" y="395" width="150" height="8" rx="2" fill="#A9B7C6" />
-        <rect x="470" y="410" width="180" height="8" rx="2" fill="#E5A93C" />
-        <rect x="470" y="425" width="100" height="8" rx="2" fill="#00D5FF" />
-        <rect x="490" y="440" width="120" height="8" rx="2" fill="#A9B7C6" />
-        <rect x="450" y="455" width="50" height="8" rx="2" fill="#A0C880" />
+          <!-- Loop duplicates -->
+          <rect x="0" y="150" width="60" height="6" rx="1.5" fill="#E5A93C" />
+          <rect x="0" y="162" width="120" height="6" rx="1.5" fill="#A9B7C6" />
+          <rect x="15" y="174" width="160" height="6" rx="1.5" fill="#00D5FF" />
+          <rect x="15" y="186" width="90" height="6" rx="1.5" fill="#E5A93C" />
+          <rect x="30" y="198" width="110" height="6" rx="1.5" fill="#A0C880" />
+        </g>
       </g>
-      <!-- Screen cyan glow flicker overlay -->
-      <rect x="435" y="185" width="310" height="180" fill="url(#screen-glow)" class="screen-glow-class" style="mix-blend-mode: screen; pointer-events: none;" />
+      <!-- Screen Reflection glow flickers -->
+      <rect x="415" y="155" width="370" height="200" fill="url(#screen-glow)" class="screen-glow-class" style="mix-blend-mode: screen; pointer-events: none;" />
     </g>
   </g>
 
-  <!-- Keyboard Assembly -->
-  <!-- Base -->
-  <polygon points="460,442 660,442 675,458 445,458" fill="#25252A" />
-  <!-- Keys (rows of light grey plastic keys) -->
-  <polygon points="465,444 655,444 665,455 455,455" fill="#D1D0D5" />
-
-  <!-- Stationary Coffee Mug on Desk (Desk Cup) -->
-  <g class="desk-cup-class" style="transform-origin: 750px 430px;">
-    <!-- Steam Rising -->
-    <g class="steam-class" style="transform-origin: 750px 390px;">
-      <path d="M 746 390 Q 742 380 748 370 Q 752 360 748 350" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.3" />
-      <path d="M 754 390 Q 750 380 756 370 Q 760 360 756 350" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.2" />
-    </g>
-    <!-- Handle -->
-    <path d="M 762 418 Q 774 428 762 438" fill="none" stroke="url(#mug-grad)" stroke-width="5" />
-    <!-- Mug body -->
-    <rect x="735" y="405" width="28" height="38" rx="4" fill="url(#mug-grad)" filter="url(#shadow)" />
-    <!-- Drink surface inside mug -->
-    <ellipse cx="749" cy="407" rx="12" ry="3" fill="#3D2010" />
-    <!-- Mug top rim highlight -->
-    <ellipse cx="749" cy="405" rx="14" ry="4" fill="none" stroke="#E59866" stroke-width="1.5" />
+  <!-- Mechanical Keyboard with Individual 3D Keys -->
+  <g transform="translate(430, 460)">
+    <!-- Base Board Shadow & Casing -->
+    <polygon points="0,0 200,0 215,35 -15,35" fill="#1C1C22" filter="url(#shadow)" />
+    <polygon points="2,2 198,2 211,33 -11,33" fill="#2E2E38" />
+    
+    <!-- Row 1 Keys -->
+    <rect x="-4" y="6" width="14" height="6" fill="#455A64" />
+    <rect x="14" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="32" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="50" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="68" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="86" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="104" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="122" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="140" y="6" width="14" height="6" fill="#37474F" />
+    <rect x="158" y="6" width="14" height="6" fill="#455A64" />
+    
+    <!-- Row 2 Keys -->
+    <rect x="-7" y="15" width="16" height="6" fill="#546E7A" />
+    <rect x="13" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="31" y="15" width="14" height="6" fill="#00ACC1" /> <!-- Cyan key accent -->
+    <rect x="49" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="67" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="85" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="103" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="121" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="139" y="15" width="14" height="6" fill="#37474F" />
+    <rect x="157" y="15" width="18" height="6" fill="#546E7A" />
+    
+    <!-- Row 3 Spacebar Row -->
+    <rect x="-9" y="24" width="22" height="7" fill="#455A64" />
+    <rect x="17" y="24" width="16" height="7" fill="#37474F" />
+    <!-- Spacebar -->
+    <rect x="37" y="24" width="90" height="7" fill="#ECEFF1" />
+    <rect x="131" y="24" width="16" height="7" fill="#37474F" />
+    <rect x="151" y="24" width="22" height="7" fill="#455A64" />
   </g>
 
-  <!-- Character Group (Breathing) -->
+  <!-- Ergonomic 3D Mouse & Cable -->
+  <g transform="translate(680, 480)">
+    <!-- Cable path curving back to desk -->
+    <path d="M 20 -10 Q 30 -30 60 -15" fill="none" stroke="#151419" stroke-width="2.5" />
+    <!-- Mouse body with top face and shadow -->
+    <ellipse cx="20" cy="15" rx="16" ry="24" fill="#1C1C22" filter="url(#shadow)" />
+    <ellipse cx="20" cy="12" rx="13" ry="20" fill="#2E2E38" />
+    <!-- Scroll wheel -->
+    <rect x="18" y="0" width="4" height="10" rx="1.5" fill="#90A4AE" />
+    <!-- LED Glow Line -->
+    <path d="M 8 18 Q 20 22 32 18" fill="none" stroke="#00E5FF" stroke-width="1.5" />
+  </g>
+
+  <!-- Coffee Mug Assembly (Desk Cup) -->
+  <g class="desk-cup-class" style="transform-origin: 820px 425px;">
+    <!-- Steam -->
+    <g class="steam-class" style="transform-origin: 820px 380px;">
+      <path d="M 816 380 Q 812 370 818 360 Q 822 350 818 340" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.3" />
+      <path d="M 824 380 Q 820 370 826 360 Q 830 350 826 340" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.25" />
+    </g>
+    <!-- Mug Handle -->
+    <path d="M 833 413 Q 845 423 833 433" fill="none" stroke="url(#mug-grad)" stroke-width="5" />
+    <!-- Mug base -->
+    <rect x="806" y="400" width="28" height="38" rx="4" fill="url(#mug-grad)" filter="url(#shadow)" />
+    <!-- Coffee -->
+    <ellipse cx="820" cy="402" rx="12" ry="3" fill="#422212" />
+    <!-- Rim highlight -->
+    <ellipse cx="820" cy="400" rx="14" ry="4" fill="none" stroke="#FFAB91" stroke-width="1.5" />
+  </g>
+
+  <!-- Character & Chair Group (Breathing & Reacting) -->
   <g class="body-class" style="transform-origin: 290px 450px;">
-    <!-- 3D Office Chair Base -->
-    <rect x="235" y="442" width="105" height="15" rx="4" fill="#202A36" />
-    <path d="M 280 455 C 260 480 240 500 210 520 L 350 520 C 320 500 300 480 280 455 Z" fill="#1E1E22" />
+    <!-- Chair Seat & Cylinder base -->
+    <rect x="235" y="432" width="115" height="18" rx="5" fill="#1C242E" />
+    <path d="M 292 450 L 292 510 L 260 540 L 324 540 Z" stroke="#25252A" stroke-width="8" fill="none" stroke-linejoin="round" />
 
-    <!-- Torso (Cozy sweater) -->
-    <path d="M 245 442 C 245 320 335 320 335 442 Z" fill="url(#sweater-grad)" filter="url(#shadow)" />
+    <!-- Torso (Cozy Forest Green Knit Sweater) -->
+    <path d="M 245 435 C 245 315 340 315 340 435 Z" fill="url(#sweater-grad)" filter="url(#shadow)" />
+    <!-- Neck -->
+    <rect x="278" y="270" width="26" height="30" fill="url(#skin-grad)" />
 
-    <!-- Head and Glasses -->
-    <g class="head-class" style="transform-origin: 290px 270px;">
-      <!-- Neck -->
-      <rect x="275" y="275" width="25" height="30" fill="url(#skin-grad)" />
+    <!-- Head, Face and Hair -->
+    <g class="head-class" style="transform-origin: 290px 260px;">
       <!-- Head Base -->
-      <circle cx="290" cy="245" r="32" fill="url(#skin-grad)" filter="url(#shadow)" />
-      <!-- Hair -->
-      <path d="M 252 235 Q 290 200 325 235 Q 330 260 315 270 Q 285 275 255 250 Z" fill="#4A3B32" />
-      <!-- Nose profile -->
-      <polygon points="321,248 328,252 321,256" fill="url(#skin-grad)" />
-      <!-- Eye / Glasses -->
-      <g transform="translate(305, 238)">
-        <!-- Rim -->
-        <rect x="0" y="0" width="18" height="15" rx="3" fill="none" stroke="#1C1B20" stroke-width="3" />
-        <rect x="0" y="0" width="18" height="15" rx="3" fill="#E0F7FA" opacity="0.3" />
-        <!-- Eye pupil behind glass -->
-        <circle cx="9" cy="7" r="3.5" fill="#2B1A09" />
-      </g>
+      <circle cx="291" cy="240" r="33" fill="url(#skin-grad)" filter="url(#shadow)" />
       <!-- Ear -->
-      <circle cx="270" cy="248" r="6" fill="url(#skin-grad)" />
+      <circle cx="270" cy="244" r="6.5" fill="url(#skin-grad)" />
+      <path d="M 270 241 Q 267 244 270 247" fill="none" stroke="#DF9E77" stroke-width="1" />
+      
+      <!-- Detailed Hair Layers -->
+      <path d="M 252 230 C 240 210 290 190 325 220 C 335 240 330 262 318 268 C 290 273 260 255 252 230 Z" fill="url(#hair-grad)" />
+      <path d="M 295 204 Q 315 210 320 225 Q 305 220 295 204 Z" fill="#6D5B4E" /> <!-- Highlight strand -->
+      
+      <!-- Nose profile -->
+      <polygon points="323,243 331,247 323,251" fill="url(#skin-grad)" />
+      
+      <!-- Eye & Glasses -->
+      <g transform="translate(306, 233)">
+        <!-- Lens rim -->
+        <rect x="0" y="0" width="18" height="15" rx="3" fill="none" stroke="#212027" stroke-width="3.5" />
+        <!-- Reflection -->
+        <rect x="0" y="0" width="18" height="15" rx="3" fill="#E0F7FA" opacity="0.25" />
+        <line x1="3" y1="12" x2="15" y2="3" stroke="#FFFFFF" stroke-width="1.5" opacity="0.6" />
+        <!-- Pupil -->
+        <circle cx="8" cy="8" r="3.5" fill="#3E2723" />
+      </g>
+      <!-- Mouth profile -->
+      <path d="M 314 260 Q 318 262 314 264" fill="none" stroke="#DF9E77" stroke-width="2" stroke-linecap="round" />
     </g>
 
     <!-- LEFT ARM SYSTEM (Typing loop) -->
     <g class="typing-l-shoulder" style="transform-origin: 275px 335px;">
       <!-- Upper arm -->
-      <path d="M 275 335 C 290 390 320 400 335 390" fill="none" stroke="url(#sweater-grad)" stroke-width="16" stroke-linecap="round" />
+      <path d="M 275 335 C 290 395 320 405 335 395" fill="none" stroke="url(#sweater-grad)" stroke-width="17" stroke-linecap="round" filter="url(#shadow)" />
       
-      <g class="typing-l-elbow" style="transform-origin: 335px 390px;">
+      <g class="typing-l-elbow" style="transform-origin: 335px 395px;">
         <!-- Forearm -->
-        <path d="M 335 390 C 375 390 405 410 425 435" fill="none" stroke="url(#sweater-grad)" stroke-width="12" stroke-linecap="round" />
+        <path d="M 335 395 C 375 395 405 415 425 438" fill="none" stroke="url(#sweater-grad)" stroke-width="13" stroke-linecap="round" />
         
-        <g class="typing-l-wrist" style="transform-origin: 425px 435px;">
+        <g class="typing-l-wrist" style="transform-origin: 425px 438px;">
           <!-- Hand -->
-          <ellipse cx="430" cy="437" rx="8" ry="6" fill="url(#skin-grad)" />
-          <!-- Animated fingers tapping keys -->
-          <line x1="432" y1="437" x2="438" y2="442" stroke="url(#skin-grad)" stroke-width="3" stroke-linecap="round" />
-          <line x1="434" y1="439" x2="441" y2="444" stroke="url(#skin-grad)" stroke-width="3" stroke-linecap="round" />
+          <ellipse cx="430" cy="440" rx="9" ry="7" fill="url(#skin-grad)" />
+          <!-- Individual typing fingers -->
+          <line x1="432" y1="440" x2="439" y2="446" stroke="url(#skin-grad)" stroke-width="3" stroke-linecap="round" />
+          <line x1="435" y1="442" x2="442" y2="448" stroke="url(#skin-grad)" stroke-width="3" stroke-linecap="round" />
         </g>
       </g>
     </g>
@@ -6282,24 +6453,25 @@
     <!-- RIGHT ARM SYSTEM (Typing + Sipping complex paths) -->
     <g class="r-shoulder-class" style="transform-origin: 305px 345px;">
       <!-- Upper arm -->
-      <path d="M 305 345 Q 335 410 355 400" fill="none" stroke="url(#sweater-grad)" stroke-width="18" stroke-linecap="round" />
+      <path d="M 305 345 Q 335 412 355 402" fill="none" stroke="url(#sweater-grad)" stroke-width="19" stroke-linecap="round" filter="url(#shadow)" />
       
-      <g class="r-elbow-class" style="transform-origin: 355px 400px;">
+      <g class="r-elbow-class" style="transform-origin: 355px 402px;">
         <!-- Forearm -->
-        <path d="M 355 400 Q 395 395 425 435" fill="none" stroke="url(#sweater-grad)" stroke-width="14" stroke-linecap="round" />
+        <path d="M 355 402 Q 395 397 425 437" fill="none" stroke="url(#sweater-grad)" stroke-width="15" stroke-linecap="round" />
         
-        <g class="r-wrist-class" style="transform-origin: 425px 435px;">
-          <!-- Hand -->
-          <circle cx="428" cy="436" r="8" fill="url(#skin-grad)" />
+        <g class="r-wrist-class" style="transform-origin: 425px 437px;">
+          <!-- Hand base -->
+          <circle cx="428" cy="436" r="9" fill="url(#skin-grad)" />
           
-          <!-- Hand Cup (Pick up cup copy, only visible when hand is lifted) -->
+          <!-- Hand Cup (Only visible when hand has grabbed and lifted the mug) -->
           <g class="hand-cup-class" style="transform-origin: 428px 436px; opacity: 0; pointer-events: none;">
-            <!-- Mug -->
+            <!-- Mug body -->
             <rect x="420" y="426" width="28" height="38" rx="4" fill="url(#mug-grad)" />
+            <!-- Mug Handle -->
             <path d="M 447 439 Q 458 449 447 459" fill="none" stroke="url(#mug-grad)" stroke-width="5" />
-            <!-- Rim -->
-            <ellipse cx="434" cy="428" rx="14" ry="4" fill="none" stroke="#E59866" stroke-width="1.5" />
-            <ellipse cx="434" cy="430" rx="12" ry="3" fill="#3D2010" />
+            <!-- Coffee rim & Liquid sloshing inside cup -->
+            <ellipse cx="434" cy="428" rx="14" ry="4" fill="none" stroke="#FFAB91" stroke-width="1.5" />
+            <ellipse cx="434" cy="430" rx="12" ry="3" fill="#422212" />
           </g>
         </g>
       </g>

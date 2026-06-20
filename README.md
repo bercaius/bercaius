@@ -44,11 +44,11 @@
 
 ---
 
-## ☕ Cozy Workspace & Realistic 3D Animation
-> Below is a highly-detailed, warm, 3D-like workspace scene. The programmer is sitting at the desk, actively coding, and occasionally pausing to take a sip from their drink. Rendered in a cozy, realistic lighting environment.
+## 💻 Elite 3D Workspace Architecture
+> Below is the ultimate 3D-rendered workspace model. This ortho-projected map features a multi-layer room, detailed desk hardware (mechanical keyboard keys, ergonomic mouse, and desk mat), realistic lighting, and advanced skeletal animations (typing, coffee sipping, code scrolling, and screen reflections).
 
 <div align="center">
-  <img src="ragdoll.svg" width="100%" alt="Cozy Coding Session" />
+  <img src="ragdoll.svg" width="100%" alt="Elite 3D Workstation" />
 </div>
 
 <br/>
