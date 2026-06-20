@@ -44,10 +44,10 @@
 
 ---
 
-## 💻 Setup
+## ☕ Our Loop
 
 <div align="center">
-  <img src="ragdoll.svg" width="100%" alt="Workspace" />
+  <video src="https://raw.githubusercontent.com/bercaius/bercaius/main/workspace.mp4" autoplay loop muted playsinline width="100%"></video>
 </div>
 
 <br/>
