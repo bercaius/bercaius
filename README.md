@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="banner.svg" alt="Profile Banner" width="220" />
-</div>
-
 <br/>
 <br/>
 
@@ -57,10 +53,23 @@
 <!-- SNAKE CONTRIBUTION GRAPH WITH CACHE BUSTING -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957636">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781957636">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957636" style="width: 100%; max-width: 900px; border-radius: 15px;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957745">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781957745">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957745" style="width: 100%; max-width: 900px; border-radius: 15px;">
   </picture>
+</div>
+
+<br/>
+<br/>
+<br/>
+<hr style="border: 1px solid #1E1C24;" />
+<br/>
+<br/>
+<br/>
+
+<!-- THE MONKEY MEME -->
+<div align="center">
+  <img src="meme_v2.svg" width="600" alt="Meme" />
 </div>
 
 <!-- INVISIBLE BARRIER TO PUSH NATIVE GITHUB CONTENT DOWN -->
