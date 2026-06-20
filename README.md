@@ -41,9 +41,17 @@
 <div align="center">
   <h3 style="color: #E4E7EC; font-family: Montserrat;">💼 Deployed Portals</h3>
   <br/>
-  <a href="https://turcodevelopstudio.web.app/" style="text-decoration: none; color: #00D5FF; font-size: 16px;"><b>Turco Develop Studio</b></a> &nbsp;🟢<br/><br/>
-  <a href="https://web-demo-bercaius-projects.vercel.app/" style="text-decoration: none; color: #00D5FF; font-size: 16px;"><b>ChadFocus</b></a> &nbsp;🟢<br/><br/>
-  <a href="https://almanca-arena.web.app/" style="text-decoration: none; color: #00D5FF; font-size: 16px;"><b>Almanca Arena</b></a> &nbsp;🟢
+  <a href="https://turcodevelopstudio.web.app/">
+    <img src="https://img.shields.io/badge/Turco_Develop_Studio-1A1A2E?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=0D1117" alt="Turco Develop Studio" />
+  </a>
+  <br/><br/>
+  <a href="https://web-demo-bercaius-projects.vercel.app/">
+    <img src="https://img.shields.io/badge/ChadFocus-1A1A2E?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="ChadFocus" />
+  </a>
+  <br/><br/>
+  <a href="https://almanca-arena.web.app/">
+    <img src="https://img.shields.io/badge/Almanca_Arena-1A1A2E?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=0D1117" alt="Almanca Arena" />
+  </a>
 </div>
 
 <br/>
@@ -70,9 +78,9 @@
 <!-- SNAKE CONTRIBUTION GRAPH WITH CACHE BUSTING -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957912">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781957912">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957912" style="width: 100%; max-width: 900px; border-radius: 15px;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958020">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781958020">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958020" style="width: 100%; max-width: 900px; border-radius: 15px;">
   </picture>
 </div>
 
