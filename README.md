@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="banner.svg" alt="Profile Banner" width="220" />
+</div>
+
 <br/>
 <br/>
 
@@ -53,12 +57,13 @@
 <!-- SNAKE CONTRIBUTION GRAPH WITH CACHE BUSTING -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957438">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781957438">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957438" style="width: 100%; max-width: 900px; border-radius: 15px;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957636">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781957636">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781957636" style="width: 100%; max-width: 900px; border-radius: 15px;">
   </picture>
 </div>
 
-<br/>
-<br/>
-<br/>
+<!-- INVISIBLE BARRIER TO PUSH NATIVE GITHUB CONTENT DOWN -->
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=300&size=1&pause=2000&color=0D1117&center=true&vCenter=true&width=10&lines=." alt="barrier" height="400" style="opacity: 0;" />
+</div>
