@@ -64,6 +64,17 @@
 <hr style="border: 1px solid #1E1C24;" />
 <br/>
 
+<!-- TOP LANGUAGES (CODE USAGE) -->
+<div align="center">
+  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">TOP LANGUAGES</h3>
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bercaius&layout=compact&theme=dark&bg_color=0D1117&title_color=E4E7EC&text_color=00D5FF&border_color=1E1C24&hide_border=false" alt="Top Languages" />
+</div>
+
+<br/>
+<hr style="border: 1px solid #1E1C24;" />
+<br/>
+
 <!-- CINEMATIC LOOP -->
 <div align="center">
   <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">OUR LOOP</h3>
@@ -80,9 +91,9 @@
   <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">CONTRIBUTION ACTIVITY</h3>
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958410">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781958410">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958410" style="width: 100%; max-width: 900px; border-radius: 12px;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781959136">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781959136">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781959136" style="width: 100%; max-width: 900px; border-radius: 12px;">
   </picture>
 </div>
 
