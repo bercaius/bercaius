@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 718" width="100%" height="718" style="background-color: #000000; overflow: hidden;">
+  <style>
+    .animated-container {
+      animation: camera_shake 6s infinite ease-in-out;
+      transform-origin: center;
+    }
+
+    @keyframes camera_shake {
+      0%, 100% { transform: scale(1.0) translate(0px, 0px) rotate(0deg); }
+      5% { transform: scale(1.02) translate(-4px, -2px) rotate(-0.3deg); }
+      10% { transform: scale(1.04) translate(2px, 4px) rotate(0.4deg); }
+      15% { transform: scale(1.03) translate(-2px, -4px) rotate(-0.2deg); }
+      20% { transform: scale(1.02) translate(4px, 2px) rotate(0.2deg); }
+      25% { transform: scale(1.04) translate(-2px, 4px) rotate(-0.4deg); }
+      30% { transform: scale(1.03) translate(2px, -2px) rotate(0.3deg); }
+      35% { transform: scale(1.02) translate(-4px, 2px) rotate(-0.2deg); }
+      40% { transform: scale(1.01) translate(2px, 4px) rotate(0.2deg); }
+      45% { transform: scale(1.02) translate(-2px, -2px) rotate(-0.3deg); }
+      50% { transform: scale(1.0) translate(0px, 0px) rotate(0deg); }
+    }
+  </style>
+  <g class="animated-container">
+    <image href="https://raw.githubusercontent.com/bercaius/bercaius/main/meme.jpg" x="0" y="0" width="1024" height="718" />
+  </g>
+</svg>

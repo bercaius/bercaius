@@ -79,5 +79,12 @@
 <br/>
 
 <div align="center">
+  <img src="meme.svg" width="600" alt="Meme" />
+</div>
+
+<br/>
+
+<div align="center">
   <sub>Decentralized. Animating. Secure. Executed in 2026.</sub>
 </div>
+
