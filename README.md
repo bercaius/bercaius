@@ -47,7 +47,7 @@
 ## ☕ Our Loop
 
 <div align="center">
-  <img src="loop.gif" width="100%" alt="Our Loop" />
+  <img src="desktop_loop.gif" width="100%" alt="Our Loop" />
 </div>
 
 <br/>
