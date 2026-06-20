@@ -9,11 +9,17 @@
 </p>
 
 <p align="center">
-  <a href="mailto:contact@berkay.dev">
+  <a href="mailto:berkayozdemirtrtr@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/bercaius">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.instagram.com/bercaius.dev/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
 </p>
 
@@ -41,6 +47,7 @@
 
 <p align="left">
   <strong>Backend, Cloud & Tools:</strong><br/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white" alt="Android Studio" />
@@ -49,13 +56,15 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Live Showcase
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[ChadFocus](https://github.com/bercaius/chadfocus)** | A cross-platform productivity and discipline tracking ecosystem (Web, Android, Desktop) featuring a Pomodoro timer, habit chaining, and real-time synchronization. | `Kotlin`, `C#`, `Next.js`, `Firebase` |
-| **[FlowPy](https://github.com/bercaius/flowpy)** | A modular Python backend application designed with a clean separation of concerns and robust AI API integrations. | `Python`, `Flask` |
-| **[Almanca Arena](https://github.com/bercaius/almancaarena)** | A gamified language learning platform with a dedicated Android application and an administrative web portal. | `Kotlin`, `JS/CSS`, `Firebase` |
+Here are my actively deployed products. Click the links below to view them live:
+
+| Product | Live Link | Description | Tech Stack |
+| :--- | :--- | :--- | :--- |
+| **ChadFocus Web** | [🌐 View Live Site](https://web-demo-bercaius-projects.vercel.app/) | A cross-platform productivity and discipline tracking ecosystem. Features habit chaining and real-time synchronization. | `Next.js`, `Vercel`, `Firebase` |
+| **Almanca Arena** | [🌐 View Live Site](https://almanca-arena.web.app/) | A gamified language learning platform with a dedicated administrative web portal and live leaderboards. | `JS/CSS`, `Firebase` |
+| **Turco Develop Studio** | [🌐 View Live Site](https://turcodevelopstudio.web.app/) | Software development studio portfolio showcasing high-quality client deliverables and internal products. | `Web`, `Firebase` |
 
 ---
 
