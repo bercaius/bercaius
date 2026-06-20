@@ -1,11 +1,15 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi,%20I'm%20Berkay!&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Berkay%20Ozdemir&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
 </div>
 
-<h3 align="center">Software Engineer & AI Integrator</h3>
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=00D5FF&center=true&vCenter=true&width=600&lines=Software+Engineer+%7C+AI+Integrator;Architecting+Clean%2C+Scalable+Solutions;Building+Cross-Platform+Ecosystems" alt="Typing SVG" />
+  </a>
+</div>
 
 <p align="center">
-  I am a software developer focused on building professional, scalable, and cross-platform applications. I integrate AI-assisted development (vibe coding) with disciplined software engineering to craft clean architectures and deliver high-quality products.
+  I am a software developer focused on building professional, scalable, and cross-platform applications. By integrating <strong>AI-assisted development</strong> with disciplined software engineering, I craft clean architectures and deliver high-quality, production-ready products.
 </p>
 
 <p align="center">
@@ -15,69 +19,92 @@
   <a href="https://github.com/bercaius">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+  <a href="https://discordapp.com/users/bercaius">
+    <img src="https://img.shields.io/badge/Discord-bercaius-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
   <a href="https://www.instagram.com/bercaius.dev/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  <a href="https://www.roblox.com/tr/users/3289097773/profile">
+    <img src="https://img.shields.io/badge/Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white" alt="Roblox" />
   </a>
 </p>
 
----
+<br/>
 
-## 🛠️ Tech Stack & Tools
-
-<p align="left">
-  <strong>Languages:</strong><br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
-
-<p align="left">
-  <strong>Frameworks & Libraries:</strong><br/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white" alt="Jetpack Compose" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="WPF" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
-</p>
-
-<p align="left">
-  <strong>Backend, Cloud & Tools:</strong><br/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white" alt="Android Studio" />
-  <img src="https://img.shields.io/badge/OpenRouter_API-000000?style=flat-square&logo=openai&logoColor=white" alt="LLM APIs" />
-</p>
-
----
-
-## 🚀 Live Showcase
-
-Here are my actively deployed products. Click the links below to view them live:
-
-| Product | Live Link | Description | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **ChadFocus Web** | [🌐 View Live Site](https://web-demo-bercaius-projects.vercel.app/) | A cross-platform productivity and discipline tracking ecosystem. Features habit chaining and real-time synchronization. | `Next.js`, `Vercel`, `Firebase` |
-| **Almanca Arena** | [🌐 View Live Site](https://almanca-arena.web.app/) | A gamified language learning platform with a dedicated administrative web portal and live leaderboards. | `JS/CSS`, `Firebase` |
-| **Turco Develop Studio** | [🌐 View Live Site](https://turcodevelopstudio.web.app/) | Software development studio portfolio showcasing high-quality client deliverables and internal products. | `Web`, `Firebase` |
-
----
-
-## 📈 GitHub Analytics
+## 🛠️ Technology Ecosystem & Engineering Arsenal
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bercaius&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Berkay's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bercaius&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <table>
+    <tr>
+      <td align="center" width="25%"><b>Programming Languages</b></td>
+      <td align="center" width="25%"><b>Frontend & UI</b></td>
+      <td align="center" width="25%"><b>Backend & Cloud</b></td>
+      <td align="center" width="25%"><b>Tools & Platforms</b></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/Kotlin-0095D5?style=flat-square&logo=kotlin&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=android&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/WPF-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/><br>
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
+      </td>
+      <td align="center">
+        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white"/><br>
+        <img src="https://img.shields.io/badge/OpenRouter_API-000000?style=flat-square&logo=openai&logoColor=white"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+## 🚀 Live Product Showcase
+
+As an engineer, I believe in shipping working, scalable products. Click to view the live production deployments:
+
+<div align="center">
+
+| Project Showcase | Production Link | Architecture |
+| :--- | :--- | :--- |
+| **🏆 Turco Develop Studio** <br/> _Official development studio portfolio showcasing high-end software solutions._ | [🌐 **Live Production**](https://turcodevelopstudio.web.app/) | `Web`, `Firebase` |
+| **📱 ChadFocus Ecosystem** <br/> _Cross-platform productivity tracking with real-time habit chaining across Web, Desktop & Android._ | [🌐 **Live Web Demo**](https://web-demo-bercaius-projects.vercel.app/) | `Next.js`, `Vercel`, `Kotlin`, `Firebase` |
+| **🎮 Almanca Arena** <br/> _Gamified language learning platform with a dedicated administrative dashboard and live leaderboards._ | [🌐 **Live Platform**](https://almanca-arena.web.app/) | `JS/CSS`, `Firebase`, `Web` |
+
+</div>
+
+<br/>
+
+## 📈 Engineering Analytics & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bercaius&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bercaius&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak" width="48%" />
 </div>
 
 <br/>
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bercaius&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <h3>Automated 3D Contribution Grid</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg">
@@ -88,5 +115,5 @@ Here are my actively deployed products. Click the links below to view them live:
 <br/>
 
 <div align="center">
-  <i>"Always learning. Always shipping."</i>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=100&section=footer" width="100%"/>
 </div>
