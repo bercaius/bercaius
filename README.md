@@ -34,7 +34,7 @@
 
 <!-- TECH STACK SECTION -->
 <div align="center">
-  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">⚙️ Tech Stack & Tools</h3>
+  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">TECH STACK & TOOLS</h3>
   <br/>
   <img src="https://skillicons.dev/icons?i=js,html,css,python,kotlin,react,firebase,vercel,git,github&theme=dark" alt="Tech Stack" />
 </div>
@@ -45,7 +45,7 @@
 
 <!-- DEPLOYED PORTALS & PROJECTS -->
 <div align="center">
-  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">🚀 Highlighted Projects</h3>
+  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">HIGHLIGHTED PROJECTS</h3>
   <br/>
   <a href="https://turcodevelopstudio.web.app/">
     <img src="https://img.shields.io/badge/Turco_Develop_Studio-1A1A2E?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=0D1117" alt="Turco Develop Studio" />
@@ -66,9 +66,9 @@
 
 <!-- CINEMATIC LOOP -->
 <div align="center">
-  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">🎬 Cinematic Overview</h3>
+  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">OUR LOOP</h3>
   <br/>
-  <img src="fast_loop.gif" width="800" style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);" alt="Cinematic Loop" />
+  <img src="fast_loop.gif" width="800" style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.6);" alt="Our Loop" />
 </div>
 
 <br/>
@@ -77,12 +77,12 @@
 
 <!-- CONTRIBUTION GRAPH -->
 <div align="center">
-  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">🔥 Contribution Activity</h3>
+  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">CONTRIBUTION ACTIVITY</h3>
   <br/>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958178">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781958178">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958178" style="width: 100%; max-width: 900px; border-radius: 12px;">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958410">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781958410">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781958410" style="width: 100%; max-width: 900px; border-radius: 12px;">
   </picture>
 </div>
 
