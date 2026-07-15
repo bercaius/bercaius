@@ -50,14 +50,6 @@
   <a href="https://turcodevelopstudio.web.app/">
     <img src="https://img.shields.io/badge/Turco_Develop_Studio-1A1A2E?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=0D1117" alt="Turco Develop Studio" />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://web-demo-bercaius-projects.vercel.app/">
-    <img src="https://img.shields.io/badge/ChadFocus-1A1A2E?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0D1117" alt="ChadFocus" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://almanca-arena.web.app/">
-    <img src="https://img.shields.io/badge/Almanca_Arena-1A1A2E?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=0D1117" alt="Almanca Arena" />
-  </a>
 </div>
 
 <br/>
