@@ -31,7 +31,6 @@
 <div align="center">
 
 <h3>TECH STACK</h3>
-<sub>TOOLS & TECHNOLOGIES I WORK WITH, GROUPED BY DOMAIN</sub>
 
 <br/><br/>
 
@@ -57,7 +56,6 @@
 <div align="center">
 
 <h3>FEATURED PROJECTS</h3>
-<sub>SELECTED WORK, DEPLOYED & MAINTAINED</sub>
 
 <br/><br/>
 
@@ -75,7 +73,6 @@
 <div align="center">
 
 <h3>SHOWCASE</h3>
-<sub>A LOOK AT WHAT I'VE BEEN BUILDING</sub>
 
 <br/><br/>
 
@@ -91,7 +88,6 @@
 <div align="center">
 
 <h3>ACTIVITY</h3>
-<sub>DAILY CONTRIBUTION GRAPH, VISUALIZED</sub>
 
 <br/><br/>
 
