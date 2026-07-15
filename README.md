@@ -81,18 +81,33 @@
 <!-- CONTRIBUTION GRAPH -->
 <div align="center">
   <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">CONTRIBUTION ACTIVITY</h3>
-  <br/>
+
+  <p style="color:#8B949E; font-size:14px; margin-top:-6px; margin-bottom:18px;">
+    Consistency over time.
+  </p>
+
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781959136">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=#00D5FF&v=1781959136">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00D5FF&v=1781959136" style="width: 100%; max-width: 900px; border-radius: 12px;">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300D5FF">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=%2300D5FF">
+
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300D5FF"
+      width="100%"
+      style="max-width:920px; border-radius:16px;">
   </picture>
+
+  <br/>
+
+  <sub style="color:#6E7681;">
+    Generated automatically from GitHub contribution data.
+  </sub>
 </div>
 
-<br/>
-<br/>
-<br/>
-<br/>
 <br/>
 <br/>
 
