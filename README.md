@@ -78,38 +78,36 @@
 <hr style="border: 1px solid #1E1C24;" />
 <br/>
 
-<!-- CONTRIBUTION GRAPH -->
+<!-- CONTRIBUTION ACTIVITY -->
 <div align="center">
-  <h3 style="color: #E4E7EC; font-family: 'Outfit', sans-serif;">CONTRIBUTION ACTIVITY</h3>
 
-  <p style="color:#8B949E; font-size:14px; margin-top:-6px; margin-bottom:18px;">
-    Consistency over time.
-  </p>
+<h3 style="color:#E4E7EC;font-family:'Outfit',sans-serif;">
+  ACTIVITY
+</h3>
 
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300D5FF">
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=%2300D5FF">
+<sub style="color:#8B949E;">
+  Every commit tells part of the story.
+</sub>
 
-    <img
-      alt="GitHub Contribution Snake"
-      src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300D5FF"
-      width="100%"
-      style="max-width:920px; border-radius:16px;">
-  </picture>
+<br/><br/>
 
-  <br/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300D5FF">
 
-  <sub style="color:#6E7681;">
-    Generated automatically from GitHub contribution data.
-  </sub>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake.svg?color_snake=%2300D5FF">
+
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/bercaius/bercaius/output/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2300D5FF"
+    width="100%"
+    style="max-width:920px;border-radius:16px;">
+</picture>
+
 </div>
-
-<br/>
-<br/>
 
 <!-- THE MONKEY MEME -->
 <div align="center">
