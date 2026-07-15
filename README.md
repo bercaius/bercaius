@@ -10,18 +10,10 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0D1117" alt="Email" height="34" />
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=berkayozdemirtrtr@gmail.com"><img src="https://img.shields.io/badge/-Contact-0D1117?style=for-the-badge&logoColor=00D5FF&labelColor=0D1117&color=1E1C24" alt="Contact" height="0" width="0" /></a>
-
-</div>
-
-<div align="center">
-
-&nbsp;
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=berkayozdemirtrtr@gmail.com"><img src="https://img.shields.io/badge/Email-1E1C24?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" /></a>
-<a href="https://github.com/bercaius"><img src="https://img.shields.io/badge/GitHub-1E1C24?style=for-the-badge&logo=github&logoColor=E4E7EC" alt="GitHub" /></a>
-<a href="https://discord.com/channels/@me" title="Discord: bercaius"><img src="https://img.shields.io/badge/Discord-1E1C24?style=for-the-badge&logo=discord&logoColor=5865F2" alt="Discord" /></a>
-<a href="https://www.instagram.com/bercaius.dev/"><img src="https://img.shields.io/badge/Instagram-1E1C24?style=for-the-badge&logo=instagram&logoColor=E4405F" alt="Instagram" /></a>
+<a href="mailto:berkayozdemirtrtr@gmail.com"><img src="https://img.shields.io/badge/-Email-1E1C24?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" height="28" /></a>&nbsp;&nbsp;
+<a href="https://github.com/bercaius?tab=followers"><img src="https://img.shields.io/badge/-Follow-1E1C24?style=flat-square&logo=github&logoColor=E4E7EC" alt="GitHub" height="28" /></a>&nbsp;&nbsp;
+<a href="https://discord.com/users/1514868723113000964" title="Discord: bercaius"><img src="https://img.shields.io/badge/-Add_Friend-1E1C24?style=flat-square&logo=discord&logoColor=5865F2" alt="Discord" height="28" /></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/bercaius.dev/"><img src="https://img.shields.io/badge/-Follow-1E1C24?style=flat-square&logo=instagram&logoColor=E4405F" alt="Instagram" height="28" /></a>
 
 </div>
 
@@ -45,8 +37,13 @@
 
 <table>
   <tr>
-    <td align="center" width="140"><sub><b>LANGUAGES</b></sub></td>
-    <td><img src="https://skillicons.dev/icons?i=js,html,css,python,kotlin&theme=dark" alt="Languages" /></td>
+    <td align="center" width="150"><sub><b>LANGUAGES</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=js,html,css,python,lua,kotlin&theme=dark" alt="Languages" /></td>
+  </tr>
+  <tr><td colspan="2" height="6"></td></tr>
+  <tr>
+    <td></td>
+    <td><sub>Lua — Luau / Roblox scripting</sub></td>
   </tr>
   <tr><td colspan="2" height="18"></td></tr>
   <tr>
@@ -57,6 +54,11 @@
   <tr>
     <td align="center"><sub><b>BACKEND & CLOUD</b></sub></td>
     <td><img src="https://skillicons.dev/icons?i=firebase,vercel&theme=dark" alt="Backend & Cloud" /></td>
+  </tr>
+  <tr><td colspan="2" height="18"></td></tr>
+  <tr>
+    <td align="center"><sub><b>TOOLS</b></sub></td>
+    <td><img src="https://skillicons.dev/icons?i=replit&theme=dark" alt="Tools" /></td>
   </tr>
   <tr><td colspan="2" height="18"></td></tr>
   <tr>
@@ -82,25 +84,6 @@
 <a href="https://turcodevelopstudio.web.app/">
   <img src="https://img.shields.io/badge/Turco_Develop_Studio-0D1117?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=1E1C24" alt="Turco Develop Studio" height="42" />
 </a>
-
-<br/>
-<sub>Studio website · built & deployed on Firebase</sub>
-
-</div>
-
-<br/><br/>
-
-<!-- ============================================================ -->
-<!--  TOP LANGUAGES                                                -->
-<!-- ============================================================ -->
-<div align="center">
-
-<h3>TOP LANGUAGES</h3>
-<sub>MOST USED ACROSS MY REPOSITORIES</sub>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bercaius&layout=compact&theme=dark&bg_color=0D1117&title_color=E4E7EC&text_color=00D5FF&border_color=1E1C24&hide_border=false&langs_count=2&hide=javascript,html,css,typescript,kotlin,jupyter%20notebook,shell,dockerfile,ruby,c%2B%2B,c,java,php,go,rust,swift,dart,r,scala,perl,vue,c%23,jsx,tsx,makefile,cmake,objective-c,coffeescript,haskell,elixir,clojure,vim%20script" alt="Top Languages" />
 
 </div>
 
