@@ -1,12 +1,14 @@
 <div align="center">
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1E1C24&height=90&section=header" width="100%" alt="" />
+
 <br/>
 
 <a href="https://github.com/bercaius">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=48&pause=1000&color=E4E7EC&center=true&vCenter=true&width=600&height=70&lines=BERKAY+%C3%96ZDEM%C4%B0R" alt="Berkay Özdemir" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=48&pause=1500&speed=60&color=E4E7EC&center=true&vCenter=true&width=600&height=70&lines=BERKAY+%C3%96ZDEM%C4%B0R" alt="Berkay Özdemir" />
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=400&size=18&pause=2000&color=00D5FF&center=true&vCenter=true&width=520&height=35&lines=JUNIOR+SOFTWARE+ENGINEER;BUILDING+CLEAN%2C+RELIABLE+SOFTWARE" alt="Roles" />
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=400&size=18&pause=2500&speed=55&color=00D5FF&center=true&vCenter=true&width=560&height=35&lines=SOFTWARE+ENGINEER;PYTHON+%C2%B7+LUA+%2F+LUAU+%2F+ROBLOX" alt="Roles" />
 
 <br/><br/>
 
@@ -15,24 +17,28 @@
 <a href="https://discord.com/users/1514868723113000964" title="Discord: bercaius"><img src="https://img.shields.io/badge/-Add_Friend-1E1C24?style=flat-square&logo=discord&logoColor=5865F2" alt="Discord" height="28" /></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/bercaius.dev/"><img src="https://img.shields.io/badge/-Follow-1E1C24?style=flat-square&logo=instagram&logoColor=E4405F" alt="Instagram" height="28" /></a>
 
-</div>
-
-<br/>
-
-<div align="center">
-  <sub><b>Turkey</b> · Open to collaboration & freelance opportunities</sub>
-</div>
-
 <br/><br/>
+<sub>Turkey · Open to collaboration & freelance opportunities</sub>
+
+</div>
+
+<br/><br/><br/>
+
+<!-- ============================================================ -->
+<!--  STATS                                                        -->
+<!-- ============================================================ -->
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=bercaius&hide_border=true&background=0D1117&stroke=1E1C24&ring=00D5FF&fire=00D5FF&currStreakLabel=00D5FF&sideLabels=E4E7EC&currStreakNum=E4E7EC&sideNums=E4E7EC&dates=E4E7EC80" width="500" alt="Streak" />
+
+</div>
+
+<br/><br/><br/>
 
 <!-- ============================================================ -->
 <!--  TECH STACK                                                   -->
 <!-- ============================================================ -->
 <div align="center">
-
-<h3>TECH STACK</h3>
-
-<br/><br/>
 
 <table>
   <tr>
@@ -48,46 +54,38 @@
 
 </div>
 
-<br/><br/>
+<br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  FEATURED PROJECTS                                            -->
+<!--  FEATURED PROJECT                                             -->
 <!-- ============================================================ -->
 <div align="center">
 
-<h3>FEATURED PROJECTS</h3>
-
-<br/><br/>
-
 <a href="https://turcodevelopstudio.web.app/">
-  <img src="https://img.shields.io/badge/Turco_Develop_Studio-0D1117?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=1E1C24" alt="Turco Develop Studio" height="42" />
+  <img src="https://img.shields.io/badge/Turco_Develop_Studio-0D1117?style=for-the-badge&logo=firebase&logoColor=FFCA28&labelColor=1E1C24" alt="Turco Develop Studio" height="46" />
 </a>
 
 </div>
 
-<br/><br/>
+<br/><br/><br/>
 
 <!-- ============================================================ -->
 <!--  SHOWCASE                                                     -->
 <!-- ============================================================ -->
 <div align="center">
 
-<h3>SHOWCASE</h3>
-
-<br/><br/>
-
 <img src="fast_loop.gif" width="800" style="border-radius: 16px; box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.55);" alt="Showcase" />
 
 </div>
 
-<br/><br/>
+<br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  CONTRIBUTION ACTIVITY                                        -->
+<!--  ACTIVITY                                                     -->
 <!-- ============================================================ -->
 <div align="center">
 
-<h3>ACTIVITY</h3>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bercaius&bg_color=0D1117&color=E4E7EC&line=00D5FF&point=00D5FF&area=true&area_color=00D5FF&title_color=E4E7EC&hide_border=true&hide_title=true" width="860" alt="Activity Graph" />
 
 <br/><br/>
 
@@ -99,19 +97,21 @@
 
 </div>
 
-<br/><br/>
+<br/><br/><br/>
 
 <!-- ============================================================ -->
 <!--  CLOSER                                                       -->
 <!-- ============================================================ -->
 <div align="center">
 
-<img src="meme_v2.svg" width="560" alt="Closer" />
-
-</div>
+<img src="meme_v2.svg" width="340" alt="." />
 
 <br/>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1C24,100:0D1117&height=80&section=footer" width="100%" alt="" />
+
+</div>
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=300&size=1&pause=2000&color=0D1117&center=true&vCenter=true&width=10&lines=." alt="spacer" height="400" style="opacity:0;" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=300&size=1&pause=2000&color=0D1117&center=true&vCenter=true&width=10&lines=." alt="spacer" height="200" style="opacity:0;" />
 </div>
