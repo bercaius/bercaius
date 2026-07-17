@@ -14,7 +14,7 @@
 
 <a href="mailto:berkayozdemirtrtr@gmail.com"><img src="https://img.shields.io/badge/-Email-1E1C24?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email" height="28" /></a>&nbsp;&nbsp;
 <a href="https://github.com/bercaius?tab=followers"><img src="https://img.shields.io/badge/-Follow-1E1C24?style=flat-square&logo=github&logoColor=E4E7EC" alt="GitHub" height="28" /></a>&nbsp;&nbsp;
-<a href="https://discord.gg/SuY6qPQtUk" title="Discord Sunucusu"><img src="https://img.shields.io/badge/-Sunucuya_Katıl-1E1C24?style=flat-square&logo=discord&logoColor=5865F2" alt="Discord" height="28" /></a>&nbsp;&nbsp;
+<a href="https://discord.gg/SuY6qPQtUk" title="Discord Server"><img src="https://img.shields.io/badge/-Join us!-1E1C24?style=flat-square&logo=discord&logoColor=5865F2" alt="Discord" height="28" /></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/bercaius.dev/"><img src="https://img.shields.io/badge/-Follow-1E1C24?style=flat-square&logo=instagram&logoColor=E4405F" alt="Instagram" height="28" /></a>
 
 <br/><br/>
