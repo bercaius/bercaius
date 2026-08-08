@@ -1,8 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,100:111111&height=90&section=header" width="100%" alt="" />
+<!-- Ana Banner -->
+<img src="banner.png" width="100%" alt="Banner" style="border-radius: 12px;" />
 
-<br/>
+<br/><br/>
 
 <!-- Profil Kartı -->
 <div style="display: inline-block; border: 1px solid #1a1a1a; border-radius: 16px; padding: 24px 32px; background: #111111;">
@@ -31,7 +32,7 @@
 <br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  STATS                                                        -->
+<!--  STATS                                                       -->
 <!-- ============================================================ -->
 <div align="center">
 
@@ -42,7 +43,7 @@
 <br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  TECH STACK                                                   -->
+<!--  TECH STACK                                                  -->
 <!-- ============================================================ -->
 <div align="center">
 
@@ -63,11 +64,11 @@
 <br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  FEATURED PROJECT                                             -->
+<!--  FEATURED PROJECT                                            -->
 <!-- ============================================================ -->
 <div align="center">
 
-<a href="[[https://turcodevelopstudio.web.app/](https://github.com/bercaius/turcodevelop-studio)](https://github.com/bercaius/turcodevelop-studio)">
+<a href="https://github.com/bercaius/turcodevelop-studio">
   <img src="https://img.shields.io/badge/Turco_Develop_Studio-0A0A0A?style=for-the-badge&logo=firebase&logoColor=F58A2B&labelColor=111111" alt="Turco Develop Studio" height="46" />
 </a>
 
@@ -76,7 +77,7 @@
 <br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  SHOWCASE                                                     -->
+<!--  SHOWCASE                                                    -->
 <!-- ============================================================ -->
 <div align="center">
 
@@ -87,7 +88,7 @@
 <br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  ACTIVITY                                                     -->
+<!--  ACTIVITY                                                    -->
 <!-- ============================================================ -->
 <div align="center">
 
@@ -106,7 +107,7 @@
 <br/><br/><br/>
 
 <!-- ============================================================ -->
-<!--  CLOSER                                                       -->
+<!--  CLOSER                                                      -->
 <!-- ============================================================ -->
 <div align="center">
 
