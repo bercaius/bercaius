@@ -5,10 +5,8 @@
 
 <br/><br/>
 
-<!-- Profil Kartı -->
-<div style="display: inline-block; border: 1px solid #1a1a1a; border-radius: 16px; padding: 24px 32px; background: #111111;">
-  <img src="https://github.com/bercaius.png" width="96" height="96" style="border-radius: 12px; border: 3px solid #F58A2B;" alt="Berkay Özdemir" />
-  <br/><br/>
+<!-- Profil Kartı (Profil fotoğrafı olmadan) -->
+<div style="display: inline-block; border: 1px solid #1a1a1a; border-radius: 16px; padding: 20px 32px; background: #111111;">
   <a href="https://github.com/bercaius">
     <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=36&pause=1500&speed=60&color=E8E8E8&center=true&vCenter=true&width=500&height=60&lines=BERKAY+%C3%96ZDEM%C4%B0R" alt="Berkay Özdemir" />
   </a>
